@@ -1,0 +1,12 @@
+[package]
+name = "mozilla-root-ca"
+version = "2024.12.15"
+edition = "2021"
+
+[features]
+x509cert = ["dep:x509cert"]
+
+[dependencies]
+const-decoder2 = "0.5.1"
+x509cert = { optional = true, version = "0.25.1" }
+
