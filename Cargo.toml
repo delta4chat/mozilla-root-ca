@@ -4,9 +4,15 @@ version = "2024.12.15"
 edition = "2021"
 
 [features]
+default = []
 x509cert = ["dep:x509cert"]
+x509-certificate = ["dep:x509-certificate"]
 
 [dependencies]
 const-decoder2 = "0.5.1"
+x509-certificate = { optional = true, version = "0.24.0" }
 x509cert = { optional = true, version = "0.25.1" }
+
+[dev-dependencies]
+bytes = "1.9.0"
 

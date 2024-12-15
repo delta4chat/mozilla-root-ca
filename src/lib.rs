@@ -11,17 +11,11 @@ pub mod x509cert;
 #[cfg(feature="x509cert")]
 pub use x509cert::*;
 
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+#[cfg(feature="x509-certificate")]
+pub mod x509_certificate;
+#[cfg(feature="x509-certificate")]
+pub use x509_certificate::*;
 
 #[cfg(test)]
-mod tests {
-    use super::*;
+mod test;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
