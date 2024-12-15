@@ -29,7 +29,8 @@ cat ../mozilla.pem | awk 'split_after==1{n++;split_after=0}
    /-----END CERTIFICATE-----/ {split_after=1}
    {if(length($0) > 0) print > "cert" (1+n) ".pem"}'
 
-echo "pub const PEM_LIST: &'static [ &'static str ] = &[" > rs.tmp.out
+echo "pub const PEM_BUNDLE: &'static str = include_str!(\"mozilla.pem\");" > rs.tmp.out
+echo "pub const PEM_LIST: &'static [ &'static str ] = &[" >> rs.tmp.out
 
 for cert in *.pem
 do

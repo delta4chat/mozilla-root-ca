@@ -1,3 +1,4 @@
+pub const PEM_BUNDLE: &'static str = include_str!("mozilla.pem");
 pub const PEM_LIST: &'static [ &'static str ] = &[
 /*
 serial=0D6A5F083F285C3E5195DF5D

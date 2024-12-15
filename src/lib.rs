@@ -6,6 +6,11 @@ pub use der::*;
 pub mod pem;
 pub use pem::*;
 
+#[cfg(feature="x509cert")]
+pub mod x509cert;
+#[cfg(feature="x509cert")]
+pub use x509cert::*;
+
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
