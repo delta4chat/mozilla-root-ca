@@ -76,6 +76,7 @@ jobs:
           if test "$(git status -s | wc -c)" -gt 0
           then
               bash bump-version.sh || true
+              git add -A
           else
               true
           fi
