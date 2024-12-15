@@ -2,13 +2,14 @@
 
 outdir="$(realpath .)"
 outfile="${outdir}/der.rs"
+pem="${outdir}/mozilla.pem"
 
 set -e
 set -x
 
 type openssl
 type mktemp
-type curl
+type cp
 type base64
 type mkdir
 type rm
@@ -18,19 +19,19 @@ tmp="$(mktemp -d -t mozillaRootCaUpdater.XXXXXXXX)"
 trap "rm -rfv $tmp" EXIT
 cd $tmp
 
-curl https://curl.se/ca/cacert.pem -v -4 -L -o mozilla.pem
+cp $pem .
 
 mkdir mozilla
 cd mozilla
 
 cat ../mozilla.pem | awk 'split_after==1{n++;split_after=0}
    /-----END CERTIFICATE-----/ {split_after=1}
-   {if(length($0) > 0) print > "cert" (1+n) ".pem"}'
+   {if(length($0) > 0) print > "" (1+n) ".pem"}'
 
 echo "use crate::*;" > rs.tmp.out
 echo "pub const DER_LIST: &'static [ &'static [u8] ] = &[" >> rs.tmp.out
 
-for cert in *.pem
+for cert in $(ls *.pem | sort -g)
 do
     echo "/*"
     openssl x509 -in $cert -noout -serial -issuer -dates -sha1 -fingerprint
