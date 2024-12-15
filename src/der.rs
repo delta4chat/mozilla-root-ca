@@ -2,7 +2,7 @@ use crate::*;
 pub const DER_LIST: &'static [ &'static [u8] ] = &[
 /*
 serial=040000000001154B5AC394
-issuer=C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA
+issuer=C = BE, O = GlobalSign nv-sa, OU = Root CA, CN = GlobalSign Root CA
 notBefore=Sep  1 12:00:00 1998 GMT
 notAfter=Jan 28 12:00:00 2028 GMT
 sha1 Fingerprint=B1:BC:96:8B:D4:F4:9D:62:2A:A8:9A:81:F2:15:01:52:A4:1D:82:9C
@@ -13,7 +13,7 @@ sha256 Fingerprint=EB:D4:10:40:E4:BB:3E:C7:42:C9:E3:81:D3:1E:F2:A4:1A:48:B6:68:5
 
 /*
 serial=3863DEF8
-issuer=O=Entrust.net, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), OU=(c) 1999 Entrust.net Limited, CN=Entrust.net Certification Authority (2048)
+issuer=O = Entrust.net, OU = www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), OU = (c) 1999 Entrust.net Limited, CN = Entrust.net Certification Authority (2048)
 notBefore=Dec 24 17:50:51 1999 GMT
 notAfter=Jul 24 14:15:12 2029 GMT
 sha1 Fingerprint=50:30:06:09:1D:97:D4:F5:AE:39:F7:CB:E7:92:7D:7D:65:2D:34:31
@@ -24,7 +24,7 @@ sha256 Fingerprint=6D:C4:71:72:E0:1C:BC:B0:BF:62:58:0D:89:5F:E2:B8:AC:9A:D4:F8:7
 
 /*
 serial=020000B9
-issuer=C=IE, O=Baltimore, OU=CyberTrust, CN=Baltimore CyberTrust Root
+issuer=C = IE, O = Baltimore, OU = CyberTrust, CN = Baltimore CyberTrust Root
 notBefore=May 12 18:46:00 2000 GMT
 notAfter=May 12 23:59:00 2025 GMT
 sha1 Fingerprint=D4:DE:20:D0:5E:66:FC:53:FE:1A:50:88:2C:78:DB:28:52:CA:E4:74
@@ -35,7 +35,7 @@ sha256 Fingerprint=16:AF:57:A9:F6:76:B0:AB:12:60:95:AA:5E:BA:DE:F2:2A:B3:11:19:D
 
 /*
 serial=456B5054
-issuer=C=US, O=Entrust, Inc., OU=www.entrust.net/CPS is incorporated by reference, OU=(c) 2006 Entrust, Inc., CN=Entrust Root Certification Authority
+issuer=C = US, O = "Entrust, Inc.", OU = www.entrust.net/CPS is incorporated by reference, OU = "(c) 2006 Entrust, Inc.", CN = Entrust Root Certification Authority
 notBefore=Nov 27 20:23:42 2006 GMT
 notAfter=Nov 27 20:53:42 2026 GMT
 sha1 Fingerprint=B3:1E:B1:B7:40:E3:6C:84:02:DA:DC:37:D4:4D:F5:D4:67:49:52:F9
@@ -46,7 +46,7 @@ sha256 Fingerprint=73:C1:76:43:4F:1B:C6:D5:AD:F4:5B:0E:76:E7:27:28:7C:8D:E5:76:1
 
 /*
 serial=01
-issuer=C=GB, ST=Greater Manchester, L=Salford, O=Comodo CA Limited, CN=AAA Certificate Services
+issuer=C = GB, ST = Greater Manchester, L = Salford, O = Comodo CA Limited, CN = AAA Certificate Services
 notBefore=Jan  1 00:00:00 2004 GMT
 notAfter=Dec 31 23:59:59 2028 GMT
 sha1 Fingerprint=D1:EB:23:A4:6D:17:D6:8F:D9:25:64:C2:F1:F1:60:17:64:D8:E3:49
@@ -57,7 +57,7 @@ sha256 Fingerprint=D7:A7:A0:FB:5D:7E:27:31:D7:71:E9:48:4E:BC:DE:F7:1D:5F:0C:3E:0
 
 /*
 serial=0509
-issuer=C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 2
+issuer=C = BM, O = QuoVadis Limited, CN = QuoVadis Root CA 2
 notBefore=Nov 24 18:27:00 2006 GMT
 notAfter=Nov 24 18:23:33 2031 GMT
 sha1 Fingerprint=CA:3A:FB:CF:12:40:36:4B:44:B2:16:20:88:80:48:39:19:93:7C:F7
@@ -68,7 +68,7 @@ sha256 Fingerprint=85:A0:DD:7D:D7:20:AD:B7:FF:05:F8:3D:54:2B:20:9D:C7:FF:45:28:F
 
 /*
 serial=05C6
-issuer=C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 3
+issuer=C = BM, O = QuoVadis Limited, CN = QuoVadis Root CA 3
 notBefore=Nov 24 19:11:23 2006 GMT
 notAfter=Nov 24 19:06:44 2031 GMT
 sha1 Fingerprint=1F:49:14:F7:D8:74:95:1D:DD:AE:02:C0:BE:FD:3A:2D:82:75:51:85
@@ -79,7 +79,7 @@ sha256 Fingerprint=18:F1:FC:7F:20:5D:F8:AD:DD:EB:7F:E0:07:DD:57:E3:AF:37:5A:9C:4
 
 /*
 serial=50946CEC18EAD59C4DD597EF758FA0AD
-issuer=C=US, OU=www.xrampsecurity.com, O=XRamp Security Services Inc, CN=XRamp Global Certification Authority
+issuer=C = US, OU = www.xrampsecurity.com, O = XRamp Security Services Inc, CN = XRamp Global Certification Authority
 notBefore=Nov  1 17:14:04 2004 GMT
 notAfter=Jan  1 05:37:19 2035 GMT
 sha1 Fingerprint=B8:01:86:D1:EB:9C:86:A5:41:04:CF:30:54:F3:4C:52:B7:E5:58:C6
@@ -90,7 +90,7 @@ sha256 Fingerprint=CE:CD:DC:90:50:99:D8:DA:DF:C5:B1:D2:09:B7:37:CB:E2:C1:8C:FB:2
 
 /*
 serial=00
-issuer=C=US, O=The Go Daddy Group, Inc., OU=Go Daddy Class 2 Certification Authority
+issuer=C = US, O = "The Go Daddy Group, Inc.", OU = Go Daddy Class 2 Certification Authority
 notBefore=Jun 29 17:06:20 2004 GMT
 notAfter=Jun 29 17:06:20 2034 GMT
 sha1 Fingerprint=27:96:BA:E6:3F:18:01:E2:77:26:1B:A0:D7:77:70:02:8F:20:EE:E4
@@ -101,7 +101,7 @@ sha256 Fingerprint=C3:84:6B:F2:4B:9E:93:CA:64:27:4C:0E:C6:7C:1E:CC:5E:02:4F:FC:A
 
 /*
 serial=00
-issuer=C=US, O=Starfield Technologies, Inc., OU=Starfield Class 2 Certification Authority
+issuer=C = US, O = "Starfield Technologies, Inc.", OU = Starfield Class 2 Certification Authority
 notBefore=Jun 29 17:39:16 2004 GMT
 notAfter=Jun 29 17:39:16 2034 GMT
 sha1 Fingerprint=AD:7E:1C:28:B0:64:EF:8F:60:03:40:20:14:C3:D0:E3:37:0E:B5:8A
@@ -112,7 +112,7 @@ sha256 Fingerprint=14:65:FA:20:53:97:B8:76:FA:A6:F0:A9:95:8E:55:90:E4:0F:CC:7F:A
 
 /*
 serial=0CE7E0E517D846FE8FE560FC1BF03039
-issuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Assured ID Root CA
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root CA
 notBefore=Nov 10 00:00:00 2006 GMT
 notAfter=Nov 10 00:00:00 2031 GMT
 sha1 Fingerprint=05:63:B8:63:0D:62:D7:5A:BB:C8:AB:1E:4B:DF:B5:A8:99:B2:4D:43
@@ -123,7 +123,7 @@ sha256 Fingerprint=3E:90:99:B5:01:5E:8F:48:6C:00:BC:EA:9D:11:1E:E7:21:FA:BA:35:5
 
 /*
 serial=083BE056904246B1A1756AC95991C74A
-issuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
 notBefore=Nov 10 00:00:00 2006 GMT
 notAfter=Nov 10 00:00:00 2031 GMT
 sha1 Fingerprint=A8:98:5D:3A:65:E5:E5:C4:B2:D7:D6:6D:40:C6:DD:2F:B1:9C:54:36
@@ -134,7 +134,7 @@ sha256 Fingerprint=43:48:A0:E9:44:4C:78:CB:26:5E:05:8D:5E:89:44:B4:D8:4F:96:62:B
 
 /*
 serial=02AC5C266A0B409B8F0B79F2AE462577
-issuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance EV Root CA
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert High Assurance EV Root CA
 notBefore=Nov 10 00:00:00 2006 GMT
 notAfter=Nov 10 00:00:00 2031 GMT
 sha1 Fingerprint=5F:B7:EE:06:33:E2:59:DB:AD:0C:4C:9A:E6:D3:8F:1A:61:C7:DC:25
@@ -145,7 +145,7 @@ sha256 Fingerprint=74:31:E5:F4:C3:C1:CE:46:90:77:4F:0B:61:E0:54:40:88:3B:A9:A0:1
 
 /*
 serial=BB401C43F55E4FB0
-issuer=C=CH, O=SwissSign AG, CN=SwissSign Gold CA - G2
+issuer=C = CH, O = SwissSign AG, CN = SwissSign Gold CA - G2
 notBefore=Oct 25 08:30:35 2006 GMT
 notAfter=Oct 25 08:30:35 2036 GMT
 sha1 Fingerprint=D8:C5:38:8A:B7:30:1B:1B:6E:D4:7A:E6:45:25:3A:6F:9F:1A:27:61
@@ -156,7 +156,7 @@ sha256 Fingerprint=62:DD:0B:E9:B9:F5:0A:16:3E:A0:F8:E7:5C:05:3B:1E:CA:57:EA:55:C
 
 /*
 serial=4F1BD42F54BB2F4B
-issuer=C=CH, O=SwissSign AG, CN=SwissSign Silver CA - G2
+issuer=C = CH, O = SwissSign AG, CN = SwissSign Silver CA - G2
 notBefore=Oct 25 08:32:46 2006 GMT
 notAfter=Oct 25 08:32:46 2036 GMT
 sha1 Fingerprint=9B:AA:E5:9F:56:EE:21:CB:43:5A:BE:25:93:DF:A7:F0:40:D1:1D:CB
@@ -167,7 +167,7 @@ sha256 Fingerprint=BE:6C:4D:A2:BB:B9:BA:59:B6:F3:93:97:68:37:42:46:C3:C0:05:99:3
 
 /*
 serial=0CF08E5C0816A5AD427FF0EB271859D0
-issuer=C=US, O=SecureTrust Corporation, CN=SecureTrust CA
+issuer=C = US, O = SecureTrust Corporation, CN = SecureTrust CA
 notBefore=Nov  7 19:31:18 2006 GMT
 notAfter=Dec 31 19:40:55 2029 GMT
 sha1 Fingerprint=87:82:C6:C3:04:35:3B:CF:D2:96:92:D2:59:3E:7D:44:D9:34:FF:11
@@ -178,7 +178,7 @@ sha256 Fingerprint=F1:C1:B5:0A:E5:A2:0D:D8:03:0E:C9:F6:BC:24:82:3D:D3:67:B5:25:5
 
 /*
 serial=075622A4E8D48A894DF413C8F0F8EAA5
-issuer=C=US, O=SecureTrust Corporation, CN=Secure Global CA
+issuer=C = US, O = SecureTrust Corporation, CN = Secure Global CA
 notBefore=Nov  7 19:42:28 2006 GMT
 notAfter=Dec 31 19:52:06 2029 GMT
 sha1 Fingerprint=3A:44:73:5A:E5:81:90:1F:24:86:61:46:1E:3B:9C:C4:5F:F5:3A:1B
@@ -189,7 +189,7 @@ sha256 Fingerprint=42:00:F5:04:3A:C8:59:0E:BB:52:7D:20:9E:D1:50:30:29:FB:CB:D4:1
 
 /*
 serial=4E812D8A8265E00B02EE3E350246E53D
-issuer=C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO Certification Authority
+issuer=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO Certification Authority
 notBefore=Dec  1 00:00:00 2006 GMT
 notAfter=Dec 31 23:59:59 2029 GMT
 sha1 Fingerprint=66:31:BF:9E:F7:4F:9E:B6:C9:D5:A6:0C:BA:6A:BE:D1:F7:BD:EF:7B
@@ -200,7 +200,7 @@ sha256 Fingerprint=0C:2C:D6:3D:F7:80:6F:A3:99:ED:E8:09:11:6B:57:5B:F8:79:89:F0:6
 
 /*
 serial=1F47AFAA62007050544C019E9B63992A
-issuer=C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO ECC Certification Authority
+issuer=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO ECC Certification Authority
 notBefore=Mar  6 00:00:00 2008 GMT
 notAfter=Jan 18 23:59:59 2038 GMT
 sha1 Fingerprint=9F:74:4E:9F:2B:4D:BA:EC:0F:31:2C:50:B6:56:3B:8E:2D:93:C3:11
@@ -211,7 +211,7 @@ sha256 Fingerprint=17:93:92:7A:06:14:54:97:89:AD:CE:2F:8F:34:F7:F0:B6:6D:0F:3A:E
 
 /*
 serial=FEDCE3010FC948FF
-issuer=C=FR, O=Dhimyotis, CN=Certigna
+issuer=C = FR, O = Dhimyotis, CN = Certigna
 notBefore=Jun 29 15:13:05 2007 GMT
 notAfter=Jun 29 15:13:05 2027 GMT
 sha1 Fingerprint=B1:2E:13:63:45:86:A4:6F:1A:B2:60:68:37:58:2D:C4:AC:FD:94:97
@@ -222,7 +222,7 @@ sha256 Fingerprint=E3:B6:A2:DB:2E:D7:CE:48:84:2F:7A:C5:32:41:C7:B7:1D:54:14:4B:F
 
 /*
 serial=15C8BD65475CAFB897005EE406D2BC9D
-issuer=C=TW, O=Chunghwa Telecom Co., Ltd., OU=ePKI Root Certification Authority
+issuer=C = TW, O = "Chunghwa Telecom Co., Ltd.", OU = ePKI Root Certification Authority
 notBefore=Dec 20 02:31:27 2004 GMT
 notAfter=Dec 20 02:31:27 2034 GMT
 sha1 Fingerprint=67:65:0D:F1:7E:8E:7E:5B:82:40:A4:F4:56:4B:CF:E2:3D:69:C6:F0
@@ -233,7 +233,7 @@ sha256 Fingerprint=C0:A6:F4:DC:63:A2:4B:FD:CF:54:EF:2A:6A:08:2A:0A:72:DE:35:80:3
 
 /*
 serial=200605167002
-issuer=C=RO, O=certSIGN, OU=certSIGN ROOT CA
+issuer=C = RO, O = certSIGN, OU = certSIGN ROOT CA
 notBefore=Jul  4 17:20:04 2006 GMT
 notAfter=Jul  4 17:20:04 2031 GMT
 sha1 Fingerprint=FA:B7:EE:36:97:26:62:FB:2D:B0:2A:F6:BF:03:FD:E8:7C:4B:2F:9B
@@ -244,7 +244,7 @@ sha256 Fingerprint=EA:A9:62:C4:FA:4A:6B:AF:EB:E4:15:19:6D:35:1C:CD:88:8D:4F:53:F
 
 /*
 serial=49412CE40010
-issuer=C=HU, L=Budapest, O=NetLock Kft., OU=Tanúsítványkiadók (Certification Services), CN=NetLock Arany (Class Gold) Főtanúsítvány
+issuer=C = HU, L = Budapest, O = NetLock Kft., OU = Tan\C3\BAs\C3\ADtv\C3\A1nykiad\C3\B3k (Certification Services), CN = NetLock Arany (Class Gold) F\C5\91tan\C3\BAs\C3\ADtv\C3\A1ny
 notBefore=Dec 11 15:08:21 2008 GMT
 notAfter=Dec  6 15:08:21 2028 GMT
 sha1 Fingerprint=06:08:3F:59:3F:15:A1:04:A0:69:A4:6B:A9:03:D0:06:B7:97:09:91
@@ -255,7 +255,7 @@ sha256 Fingerprint=6C:61:DA:C3:A2:DE:F0:31:50:6B:E0:36:D2:A6:FE:40:19:94:FB:D1:3
 
 /*
 serial=01
-issuer=C=JP, O=Japan Certification Services, Inc., CN=SecureSign RootCA11
+issuer=C = JP, O = "Japan Certification Services, Inc.", CN = SecureSign RootCA11
 notBefore=Apr  8 04:56:47 2009 GMT
 notAfter=Apr  8 04:56:47 2029 GMT
 sha1 Fingerprint=3B:C4:9F:48:F8:F3:73:A0:9C:1E:BD:F8:5B:B1:C3:65:C7:D8:11:B3
@@ -266,7 +266,7 @@ sha256 Fingerprint=BF:0F:EE:FB:9E:3A:58:1A:D5:F9:E9:DB:75:89:98:57:43:D2:61:08:5
 
 /*
 serial=C27E43044E473F19
-issuer=C=HU, L=Budapest, O=Microsec Ltd., CN=Microsec e-Szigno Root CA 2009, emailAddress=info@e-szigno.hu
+issuer=C = HU, L = Budapest, O = Microsec Ltd., CN = Microsec e-Szigno Root CA 2009, emailAddress = info@e-szigno.hu
 notBefore=Jun 16 11:30:18 2009 GMT
 notAfter=Dec 30 11:30:18 2029 GMT
 sha1 Fingerprint=89:DF:74:FE:5C:F4:0F:4A:80:F9:E3:37:7D:54:DA:91:E1:01:31:8E
@@ -277,7 +277,7 @@ sha256 Fingerprint=3C:5F:81:FE:A5:FA:B8:2C:64:BF:A2:EA:EC:AF:CD:E8:E0:77:FC:86:2
 
 /*
 serial=04000000000121585308A2
-issuer=OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign
+issuer=OU = GlobalSign Root CA - R3, O = GlobalSign, CN = GlobalSign
 notBefore=Mar 18 10:00:00 2009 GMT
 notAfter=Mar 18 10:00:00 2029 GMT
 sha1 Fingerprint=D6:9B:56:11:48:F0:1C:77:C5:45:78:C1:09:26:DF:5B:85:69:76:AD
@@ -288,7 +288,7 @@ sha256 Fingerprint=CB:B5:22:D7:B7:F1:27:AD:6A:01:13:86:5B:DF:1C:D4:10:2E:7D:07:5
 
 /*
 serial=B0B75A16485FBFE1CBF58BD719E67D
-issuer=C=ES, O=IZENPE S.A., CN=Izenpe.com
+issuer=C = ES, O = IZENPE S.A., CN = Izenpe.com
 notBefore=Dec 13 13:08:28 2007 GMT
 notAfter=Dec 13 08:27:25 2037 GMT
 sha1 Fingerprint=2F:78:3D:25:52:18:A7:4A:65:39:71:B5:2C:A2:9C:45:15:6F:E9:19
@@ -299,7 +299,7 @@ sha256 Fingerprint=25:30:CC:8E:98:32:15:02:BA:D9:6F:9B:1F:BA:1B:09:9E:2D:29:9E:0
 
 /*
 serial=00
-issuer=C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com, Inc., CN=Go Daddy Root Certificate Authority - G2
+issuer=C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", CN = Go Daddy Root Certificate Authority - G2
 notBefore=Sep  1 00:00:00 2009 GMT
 notAfter=Dec 31 23:59:59 2037 GMT
 sha1 Fingerprint=47:BE:AB:C9:22:EA:E8:0E:78:78:34:62:A7:9F:45:C2:54:FD:E6:8B
@@ -310,7 +310,7 @@ sha256 Fingerprint=45:14:0B:32:47:EB:9C:C8:C5:B4:F0:D7:B5:30:91:F7:32:92:08:9E:6
 
 /*
 serial=00
-issuer=C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Root Certificate Authority - G2
+issuer=C = US, ST = Arizona, L = Scottsdale, O = "Starfield Technologies, Inc.", CN = Starfield Root Certificate Authority - G2
 notBefore=Sep  1 00:00:00 2009 GMT
 notAfter=Dec 31 23:59:59 2037 GMT
 sha1 Fingerprint=B5:1C:06:7C:EE:2B:0C:3D:F8:55:AB:2D:92:F4:FE:39:D4:E7:0F:0E
@@ -321,7 +321,7 @@ sha256 Fingerprint=2C:E1:CB:0B:F9:D2:F9:E1:02:99:3F:BE:21:51:52:C3:B2:DD:0C:AB:D
 
 /*
 serial=00
-issuer=C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+issuer=C = US, ST = Arizona, L = Scottsdale, O = "Starfield Technologies, Inc.", CN = Starfield Services Root Certificate Authority - G2
 notBefore=Sep  1 00:00:00 2009 GMT
 notAfter=Dec 31 23:59:59 2037 GMT
 sha1 Fingerprint=92:5A:8F:8D:2C:6D:04:E0:66:5F:59:6A:FF:22:D8:63:E8:25:6F:3F
@@ -332,7 +332,7 @@ sha256 Fingerprint=56:8D:69:05:A2:C8:87:08:A4:B3:02:51:90:ED:CF:ED:B1:97:4A:60:6
 
 /*
 serial=7777062726A9B17C
-issuer=C=US, O=AffirmTrust, CN=AffirmTrust Commercial
+issuer=C = US, O = AffirmTrust, CN = AffirmTrust Commercial
 notBefore=Jan 29 14:06:06 2010 GMT
 notAfter=Dec 31 14:06:06 2030 GMT
 sha1 Fingerprint=F9:B5:B6:32:45:5F:9C:BE:EC:57:5F:80:DC:E9:6E:2C:C7:B2:78:B7
@@ -343,7 +343,7 @@ sha256 Fingerprint=03:76:AB:1D:54:C5:F9:80:3C:E4:B2:E2:01:A0:EE:7E:EF:7B:57:B6:3
 
 /*
 serial=7C4F04391CD4992D
-issuer=C=US, O=AffirmTrust, CN=AffirmTrust Networking
+issuer=C = US, O = AffirmTrust, CN = AffirmTrust Networking
 notBefore=Jan 29 14:08:24 2010 GMT
 notAfter=Dec 31 14:08:24 2030 GMT
 sha1 Fingerprint=29:36:21:02:8B:20:ED:02:F5:66:C5:32:D1:D6:ED:90:9F:45:00:2F
@@ -354,7 +354,7 @@ sha256 Fingerprint=0A:81:EC:5A:92:97:77:F1:45:90:4A:F3:8D:5D:50:9F:66:B5:E2:C5:8
 
 /*
 serial=6D8C1446B1A60AEE
-issuer=C=US, O=AffirmTrust, CN=AffirmTrust Premium
+issuer=C = US, O = AffirmTrust, CN = AffirmTrust Premium
 notBefore=Jan 29 14:10:36 2010 GMT
 notAfter=Dec 31 14:10:36 2040 GMT
 sha1 Fingerprint=D8:A6:33:2C:E0:03:6F:B1:85:F6:63:4F:7D:6A:06:65:26:32:28:27
@@ -365,7 +365,7 @@ sha256 Fingerprint=70:A7:3F:7F:37:6B:60:07:42:48:90:45:34:B1:14:82:D5:BF:0E:69:8
 
 /*
 serial=7497258AC73F7A54
-issuer=C=US, O=AffirmTrust, CN=AffirmTrust Premium ECC
+issuer=C = US, O = AffirmTrust, CN = AffirmTrust Premium ECC
 notBefore=Jan 29 14:20:24 2010 GMT
 notAfter=Dec 31 14:20:24 2040 GMT
 sha1 Fingerprint=B8:23:6B:00:2F:1D:16:86:53:01:55:6C:11:A4:37:CA:EB:FF:C3:BB
@@ -376,7 +376,7 @@ sha256 Fingerprint=BD:71:FD:F6:DA:97:E4:CF:62:D1:64:7A:DD:25:81:B0:7D:79:AD:F8:3
 
 /*
 serial=0444C0
-issuer=C=PL, O=Unizeto Technologies S.A., OU=Certum Certification Authority, CN=Certum Trusted Network CA
+issuer=C = PL, O = Unizeto Technologies S.A., OU = Certum Certification Authority, CN = Certum Trusted Network CA
 notBefore=Oct 22 12:07:37 2008 GMT
 notAfter=Dec 31 12:07:37 2029 GMT
 sha1 Fingerprint=07:E0:32:E0:20:B7:2C:3F:19:2F:06:28:A2:59:3A:19:A7:0F:06:9E
@@ -387,7 +387,7 @@ sha256 Fingerprint=5C:58:46:8D:55:F5:8E:49:7E:74:39:82:D2:B5:00:10:B6:D1:65:37:4
 
 /*
 serial=01
-issuer=C=TW, O=TAIWAN-CA, OU=Root CA, CN=TWCA Root Certification Authority
+issuer=C = TW, O = TAIWAN-CA, OU = Root CA, CN = TWCA Root Certification Authority
 notBefore=Aug 28 07:24:33 2008 GMT
 notAfter=Dec 31 15:59:59 2030 GMT
 sha1 Fingerprint=CF:9E:87:6D:D3:EB:FC:42:26:97:A3:B5:A3:7A:A0:76:A9:06:23:48
@@ -398,7 +398,7 @@ sha256 Fingerprint=BF:D8:8F:E1:10:1C:41:AE:3E:80:1B:F8:BE:56:35:0E:E9:BA:D1:A6:B
 
 /*
 serial=00
-issuer=C=JP, O=SECOM Trust Systems CO.,LTD., OU=Security Communication RootCA2
+issuer=C = JP, O = "SECOM Trust Systems CO.,LTD.", OU = Security Communication RootCA2
 notBefore=May 29 05:00:39 2009 GMT
 notAfter=May 29 05:00:39 2029 GMT
 sha1 Fingerprint=5F:3B:8C:F2:F8:10:B3:7D:78:B4:CE:EC:19:19:C3:73:34:B9:C7:74
@@ -409,7 +409,7 @@ sha256 Fingerprint=51:3B:2C:EC:B8:10:D4:CD:E5:DD:85:39:1A:DF:C6:C2:DD:60:D8:7B:B
 
 /*
 serial=570A119742C4E3CC
-issuer=C=IT, L=Milan, O=Actalis S.p.A./03358520967, CN=Actalis Authentication Root CA
+issuer=C = IT, L = Milan, O = Actalis S.p.A./03358520967, CN = Actalis Authentication Root CA
 notBefore=Sep 22 11:22:02 2011 GMT
 notAfter=Sep 22 11:22:02 2030 GMT
 sha1 Fingerprint=F3:73:B3:87:06:5A:28:84:8A:F2:F3:4A:CE:19:2B:DD:C7:8E:9C:AC
@@ -420,7 +420,7 @@ sha256 Fingerprint=55:92:60:84:EC:96:3A:64:B9:6E:2A:BE:01:CE:0B:A8:6A:64:FB:FE:B
 
 /*
 serial=02
-issuer=C=NO, O=Buypass AS-983163327, CN=Buypass Class 2 Root CA
+issuer=C = NO, O = Buypass AS-983163327, CN = Buypass Class 2 Root CA
 notBefore=Oct 26 08:38:03 2010 GMT
 notAfter=Oct 26 08:38:03 2040 GMT
 sha1 Fingerprint=49:0A:75:74:DE:87:0A:47:FE:58:EE:F6:C7:6B:EB:C6:0B:12:40:99
@@ -431,7 +431,7 @@ sha256 Fingerprint=9A:11:40:25:19:7C:5B:B9:5D:94:E6:3D:55:CD:43:79:08:47:B6:46:B
 
 /*
 serial=02
-issuer=C=NO, O=Buypass AS-983163327, CN=Buypass Class 3 Root CA
+issuer=C = NO, O = Buypass AS-983163327, CN = Buypass Class 3 Root CA
 notBefore=Oct 26 08:28:58 2010 GMT
 notAfter=Oct 26 08:28:58 2040 GMT
 sha1 Fingerprint=DA:FA:F7:FA:66:84:EC:06:8F:14:50:BD:C7:C2:81:A5:BC:A9:64:57
@@ -442,7 +442,7 @@ sha256 Fingerprint=ED:F7:EB:BC:A2:7A:2A:38:4D:38:7B:7D:40:10:C6:66:E2:ED:B4:84:3
 
 /*
 serial=01
-issuer=C=DE, O=T-Systems Enterprise Services GmbH, OU=T-Systems Trust Center, CN=T-TeleSec GlobalRoot Class 3
+issuer=C = DE, O = T-Systems Enterprise Services GmbH, OU = T-Systems Trust Center, CN = T-TeleSec GlobalRoot Class 3
 notBefore=Oct  1 10:29:56 2008 GMT
 notAfter=Oct  1 23:59:59 2033 GMT
 sha1 Fingerprint=55:A6:72:3E:CB:F2:EC:CD:C3:23:74:70:19:9D:2A:BE:11:E3:81:D1
@@ -453,7 +453,7 @@ sha256 Fingerprint=FD:73:DA:D3:1C:64:4F:F1:B4:3B:EF:0C:CD:DA:96:71:0B:9C:D9:87:5
 
 /*
 serial=0983F3
-issuer=C=DE, O=D-Trust GmbH, CN=D-TRUST Root Class 3 CA 2 2009
+issuer=C = DE, O = D-Trust GmbH, CN = D-TRUST Root Class 3 CA 2 2009
 notBefore=Nov  5 08:35:58 2009 GMT
 notAfter=Nov  5 08:35:58 2029 GMT
 sha1 Fingerprint=58:E8:AB:B0:36:15:33:FB:80:F7:9B:1B:6D:29:D3:FF:8D:5F:00:F0
@@ -464,7 +464,7 @@ sha256 Fingerprint=49:E7:A4:42:AC:F0:EA:62:87:05:00:54:B5:25:64:B6:50:E4:F4:9E:4
 
 /*
 serial=0983F4
-issuer=C=DE, O=D-Trust GmbH, CN=D-TRUST Root Class 3 CA 2 EV 2009
+issuer=C = DE, O = D-Trust GmbH, CN = D-TRUST Root Class 3 CA 2 EV 2009
 notBefore=Nov  5 08:50:46 2009 GMT
 notAfter=Nov  5 08:50:46 2029 GMT
 sha1 Fingerprint=96:C9:1B:0B:95:B4:10:98:42:FA:D0:D8:22:79:FE:60:FA:B9:16:83
@@ -475,7 +475,7 @@ sha256 Fingerprint=EE:C5:49:6B:98:8C:E9:86:25:B9:34:09:2E:EC:29:08:BE:D0:B0:F3:1
 
 /*
 serial=92B888DBB08AC163
-issuer=C=SK, L=Bratislava, O=Disig a.s., CN=CA Disig Root R2
+issuer=C = SK, L = Bratislava, O = Disig a.s., CN = CA Disig Root R2
 notBefore=Jul 19 09:15:30 2012 GMT
 notAfter=Jul 19 09:15:30 2042 GMT
 sha1 Fingerprint=B5:61:EB:EA:A4:DE:E4:25:4B:69:1A:98:A5:57:47:C2:34:C7:D9:71
@@ -486,7 +486,7 @@ sha256 Fingerprint=E2:3D:4A:03:6D:7B:70:E9:F5:95:B1:42:20:79:D2:B9:1E:DF:BB:1F:B
 
 /*
 serial=5EC3B7A6437FA4E0
-issuer=CN=ACCVRAIZ1, OU=PKIACCV, O=ACCV, C=ES
+issuer=CN = ACCVRAIZ1, OU = PKIACCV, O = ACCV, C = ES
 notBefore=May  5 09:37:37 2011 GMT
 notAfter=Dec 31 09:37:37 2030 GMT
 sha1 Fingerprint=93:05:7A:88:15:C6:4F:CE:88:2F:FA:91:16:52:28:78:BC:53:64:17
@@ -497,7 +497,7 @@ sha256 Fingerprint=9A:6E:C0:12:E1:A7:DA:9D:BE:34:19:4D:47:8A:D7:C0:DB:18:22:FB:0
 
 /*
 serial=0CBE
-issuer=C=TW, O=TAIWAN-CA, OU=Root CA, CN=TWCA Global Root CA
+issuer=C = TW, O = TAIWAN-CA, OU = Root CA, CN = TWCA Global Root CA
 notBefore=Jun 27 06:28:33 2012 GMT
 notAfter=Dec 31 15:59:59 2030 GMT
 sha1 Fingerprint=9C:BB:48:53:F6:A4:F6:D3:52:A4:E8:32:52:55:60:13:F5:AD:AF:65
@@ -508,7 +508,7 @@ sha256 Fingerprint=59:76:90:07:F7:68:5D:0F:CD:50:87:2F:9F:95:D5:75:5A:5B:2B:45:7
 
 /*
 serial=95BE16A0F72E46F17B398272FA8BCD96
-issuer=O=TeliaSonera, CN=TeliaSonera Root CA v1
+issuer=O = TeliaSonera, CN = TeliaSonera Root CA v1
 notBefore=Oct 18 12:00:50 2007 GMT
 notAfter=Oct 18 12:00:50 2032 GMT
 sha1 Fingerprint=43:13:BB:96:F1:D5:86:9B:C1:4E:6A:92:F6:CF:F6:34:69:87:82:37
@@ -519,7 +519,7 @@ sha256 Fingerprint=DD:69:36:FE:21:F8:F0:77:C1:23:A1:A5:21:C1:22:24:F7:22:55:B7:3
 
 /*
 serial=01
-issuer=C=DE, O=T-Systems Enterprise Services GmbH, OU=T-Systems Trust Center, CN=T-TeleSec GlobalRoot Class 2
+issuer=C = DE, O = T-Systems Enterprise Services GmbH, OU = T-Systems Trust Center, CN = T-TeleSec GlobalRoot Class 2
 notBefore=Oct  1 10:40:14 2008 GMT
 notAfter=Oct  1 23:59:59 2033 GMT
 sha1 Fingerprint=59:0D:2D:7D:88:4F:40:2E:61:7E:A5:62:32:17:65:CF:17:D8:94:E9
@@ -530,7 +530,7 @@ sha256 Fingerprint=91:E2:F5:78:8D:58:10:EB:A7:BA:58:73:7D:E1:54:8A:8E:CA:CD:01:4
 
 /*
 serial=5C33CB622C5FB332
-issuer=CN=Atos TrustedRoot 2011, O=Atos, C=DE
+issuer=CN = Atos TrustedRoot 2011, O = Atos, C = DE
 notBefore=Jul  7 14:58:30 2011 GMT
 notAfter=Dec 31 23:59:59 2030 GMT
 sha1 Fingerprint=2B:B1:F5:3E:55:0C:1D:C5:F1:D4:E6:B7:6A:46:4B:55:06:02:AC:21
@@ -541,7 +541,7 @@ sha256 Fingerprint=F3:56:BE:A2:44:B7:A9:1E:B3:5D:53:CA:9A:D7:86:4A:CE:01:8E:2D:3
 
 /*
 serial=78585F2EAD2C194BE3370735341328B596D46593
-issuer=C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 1 G3
+issuer=C = BM, O = QuoVadis Limited, CN = QuoVadis Root CA 1 G3
 notBefore=Jan 12 17:27:44 2012 GMT
 notAfter=Jan 12 17:27:44 2042 GMT
 sha1 Fingerprint=1B:8E:EA:57:96:29:1A:C9:39:EA:B8:0A:81:1A:73:73:C0:93:79:67
@@ -552,7 +552,7 @@ sha256 Fingerprint=8A:86:6F:D1:B2:76:B5:7E:57:8E:92:1C:65:82:8A:2B:ED:58:E9:F2:F
 
 /*
 serial=445734245B81899B35F2CEB82B3B5BA726F07528
-issuer=C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 2 G3
+issuer=C = BM, O = QuoVadis Limited, CN = QuoVadis Root CA 2 G3
 notBefore=Jan 12 18:59:32 2012 GMT
 notAfter=Jan 12 18:59:32 2042 GMT
 sha1 Fingerprint=09:3C:61:F3:8B:8B:DC:7D:55:DF:75:38:02:05:00:E1:25:F5:C8:36
@@ -563,7 +563,7 @@ sha256 Fingerprint=8F:E4:FB:0A:F9:3A:4D:0D:67:DB:0B:EB:B2:3E:37:C7:1B:F3:25:DC:B
 
 /*
 serial=2EF59B0228A7DB7AFFD5A3A9EEBD03A0CF126A1D
-issuer=C=BM, O=QuoVadis Limited, CN=QuoVadis Root CA 3 G3
+issuer=C = BM, O = QuoVadis Limited, CN = QuoVadis Root CA 3 G3
 notBefore=Jan 12 20:26:32 2012 GMT
 notAfter=Jan 12 20:26:32 2042 GMT
 sha1 Fingerprint=48:12:BD:92:3C:A8:C4:39:06:E7:30:6D:27:96:E6:A4:CF:22:2E:7D
@@ -574,7 +574,7 @@ sha256 Fingerprint=88:EF:81:DE:20:2E:B0:18:45:2E:43:F8:64:72:5C:EA:5F:BD:1F:C2:D
 
 /*
 serial=0B931C3AD63967EA6723BFC3AF9AF44B
-issuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Assured ID Root G2
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root G2
 notBefore=Aug  1 12:00:00 2013 GMT
 notAfter=Jan 15 12:00:00 2038 GMT
 sha1 Fingerprint=A1:4B:48:D9:43:EE:0A:0E:40:90:4F:3C:E0:A4:C0:91:93:51:5D:3F
@@ -585,7 +585,7 @@ sha256 Fingerprint=7D:05:EB:B6:82:33:9F:8C:94:51:EE:09:4E:EB:FE:FA:79:53:A1:14:E
 
 /*
 serial=0BA15AFA1DDFA0B54944AFCD24A06CEC
-issuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Assured ID Root G3
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root G3
 notBefore=Aug  1 12:00:00 2013 GMT
 notAfter=Jan 15 12:00:00 2038 GMT
 sha1 Fingerprint=F5:17:A2:4F:9A:48:C6:C9:F8:A2:00:26:9F:DC:0F:48:2C:AB:30:89
@@ -596,7 +596,7 @@ sha256 Fingerprint=7E:37:CB:8B:4C:47:09:0C:AB:36:55:1B:A6:F4:5D:B8:40:68:0F:BA:1
 
 /*
 serial=033AF1E6A711A9A0BB2864B11D09FAE5
-issuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root G2
 notBefore=Aug  1 12:00:00 2013 GMT
 notAfter=Jan 15 12:00:00 2038 GMT
 sha1 Fingerprint=DF:3C:24:F9:BF:D6:66:76:1B:26:80:73:FE:06:D1:CC:8D:4F:82:A4
@@ -607,7 +607,7 @@ sha256 Fingerprint=CB:3C:CB:B7:60:31:E5:E0:13:8F:8D:D3:9A:23:F9:DE:47:FF:C3:5E:4
 
 /*
 serial=055556BCF25EA43535C3A40FD5AB4572
-issuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G3
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root G3
 notBefore=Aug  1 12:00:00 2013 GMT
 notAfter=Jan 15 12:00:00 2038 GMT
 sha1 Fingerprint=7E:04:DE:89:6A:3E:66:6D:00:E6:87:D3:3F:FA:D9:3B:E8:3D:34:9E
@@ -618,7 +618,7 @@ sha256 Fingerprint=31:AD:66:48:F8:10:41:38:C7:38:F3:9E:A4:32:01:33:39:3E:3A:18:C
 
 /*
 serial=059B1B579E8E2132E23907BDA777755C
-issuer=C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Trusted Root G4
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Trusted Root G4
 notBefore=Aug  1 12:00:00 2013 GMT
 notAfter=Jan 15 12:00:00 2038 GMT
 sha1 Fingerprint=DD:FB:16:CD:49:31:C9:73:A2:03:7D:3F:C8:3A:4D:7D:77:5D:05:E4
@@ -629,7 +629,7 @@ sha256 Fingerprint=55:2F:7B:DC:F1:A7:AF:9E:6C:E6:72:01:7F:4F:12:AB:F7:72:40:C7:8
 
 /*
 serial=4CAAF9CADB636FE01FF74ED85B03869D
-issuer=C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Certification Authority
+issuer=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO RSA Certification Authority
 notBefore=Jan 19 00:00:00 2010 GMT
 notAfter=Jan 18 23:59:59 2038 GMT
 sha1 Fingerprint=AF:E5:D2:44:A8:D1:19:42:30:FF:47:9F:E2:F8:97:BB:CD:7A:8C:B4
@@ -640,7 +640,7 @@ sha256 Fingerprint=52:F0:E1:C4:E5:8E:C6:29:29:1B:60:31:7F:07:46:71:B8:5D:7E:A8:0
 
 /*
 serial=01FD6D30FCA3CA51A81BBC640E35032D
-issuer=C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority
+issuer=C = US, ST = New Jersey, L = Jersey City, O = The USERTRUST Network, CN = USERTrust RSA Certification Authority
 notBefore=Feb  1 00:00:00 2010 GMT
 notAfter=Jan 18 23:59:59 2038 GMT
 sha1 Fingerprint=2B:8F:1B:57:33:0D:BB:A2:D0:7A:6C:51:F7:0E:E9:0D:DA:B9:AD:8E
@@ -651,7 +651,7 @@ sha256 Fingerprint=E7:93:C9:B0:2F:D8:AA:13:E2:1C:31:22:8A:CC:B0:81:19:64:3B:74:9
 
 /*
 serial=5C8B99C55A94C5D27156DECD8980CC26
-issuer=C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust ECC Certification Authority
+issuer=C = US, ST = New Jersey, L = Jersey City, O = The USERTRUST Network, CN = USERTrust ECC Certification Authority
 notBefore=Feb  1 00:00:00 2010 GMT
 notAfter=Jan 18 23:59:59 2038 GMT
 sha1 Fingerprint=D1:CB:CA:5D:B2:D5:2A:7F:69:3B:67:4D:E5:F0:5A:1D:0C:95:7D:F0
@@ -662,7 +662,7 @@ sha256 Fingerprint=4F:F4:60:D5:4B:9C:86:DA:BF:BC:FC:57:12:E0:40:0D:2B:ED:3F:BC:4
 
 /*
 serial=605949E0262EBB55F90A778A71F94AD86C
-issuer=OU=GlobalSign ECC Root CA - R5, O=GlobalSign, CN=GlobalSign
+issuer=OU = GlobalSign ECC Root CA - R5, O = GlobalSign, CN = GlobalSign
 notBefore=Nov 13 00:00:00 2012 GMT
 notAfter=Jan 19 03:14:07 2038 GMT
 sha1 Fingerprint=1F:24:C6:30:CD:A4:18:EF:20:69:FF:AD:4F:DD:5F:46:3A:1B:69:AA
@@ -673,7 +673,7 @@ sha256 Fingerprint=17:9F:BC:14:8A:3D:D0:0F:D2:4E:A1:34:58:CC:43:BF:A7:F5:9C:81:8
 
 /*
 serial=0A0142800000014523C844B500000002
-issuer=C=US, O=IdenTrust, CN=IdenTrust Commercial Root CA 1
+issuer=C = US, O = IdenTrust, CN = IdenTrust Commercial Root CA 1
 notBefore=Jan 16 18:12:23 2014 GMT
 notAfter=Jan 16 18:12:23 2034 GMT
 sha1 Fingerprint=DF:71:7E:AA:4A:D9:4E:C9:55:84:99:60:2D:48:DE:5F:BC:F0:3A:25
@@ -684,7 +684,7 @@ sha256 Fingerprint=5D:56:49:9B:E4:D2:E0:8B:CF:CA:D0:8A:3E:38:72:3D:50:50:3B:DE:7
 
 /*
 serial=0A0142800000014523CF467C00000002
-issuer=C=US, O=IdenTrust, CN=IdenTrust Public Sector Root CA 1
+issuer=C = US, O = IdenTrust, CN = IdenTrust Public Sector Root CA 1
 notBefore=Jan 16 17:53:32 2014 GMT
 notAfter=Jan 16 17:53:32 2034 GMT
 sha1 Fingerprint=BA:29:41:60:77:98:3F:F4:F3:EF:F2:31:05:3B:2E:EA:6D:4D:45:FD
@@ -695,7 +695,7 @@ sha256 Fingerprint=30:D0:89:5A:9A:44:8A:26:20:91:63:55:22:D1:F5:20:10:B5:86:7A:C
 
 /*
 serial=4A538C28
-issuer=C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2009 Entrust, Inc. - for authorized use only, CN=Entrust Root Certification Authority - G2
+issuer=C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
 notBefore=Jul  7 17:25:54 2009 GMT
 notAfter=Dec  7 17:55:54 2030 GMT
 sha1 Fingerprint=8C:F4:27:FD:79:0C:3A:D1:66:06:8D:E8:1E:57:EF:BB:93:22:72:D4
@@ -706,7 +706,7 @@ sha256 Fingerprint=43:DF:57:74:B0:3E:7F:EF:5F:E4:0D:93:1A:7B:ED:F1:BB:2E:6B:42:7
 
 /*
 serial=A68B79290000000050D091F9
-issuer=C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2012 Entrust, Inc. - for authorized use only, CN=Entrust Root Certification Authority - EC1
+issuer=C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2012 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - EC1
 notBefore=Dec 18 15:25:36 2012 GMT
 notAfter=Dec 18 15:55:36 2037 GMT
 sha1 Fingerprint=20:D8:06:40:DF:9B:25:F5:12:25:3A:11:EA:F7:59:8A:EB:14:B5:47
@@ -717,7 +717,7 @@ sha256 Fingerprint=02:ED:0E:B2:8C:14:DA:45:16:5C:56:67:91:70:0D:64:51:D7:FB:56:F
 
 /*
 serial=184ACCD6
-issuer=C=CN, O=China Financial Certification Authority, CN=CFCA EV ROOT
+issuer=C = CN, O = China Financial Certification Authority, CN = CFCA EV ROOT
 notBefore=Aug  8 03:07:01 2012 GMT
 notAfter=Dec 31 03:07:01 2029 GMT
 sha1 Fingerprint=E2:B8:29:4B:55:84:AB:6B:58:C2:90:46:6C:AC:3F:B8:39:8F:84:83
@@ -728,7 +728,7 @@ sha256 Fingerprint=5C:C3:D7:8E:4E:1D:5E:45:54:7A:04:E6:87:3E:64:F9:0C:F9:53:6D:1
 
 /*
 serial=76B1205274F0858746B3F8231AF6C2C0
-issuer=C=CH, O=WISeKey, OU=OISTE Foundation Endorsed, CN=OISTE WISeKey Global Root GB CA
+issuer=C = CH, O = WISeKey, OU = OISTE Foundation Endorsed, CN = OISTE WISeKey Global Root GB CA
 notBefore=Dec  1 15:00:32 2014 GMT
 notAfter=Dec  1 15:10:31 2039 GMT
 sha1 Fingerprint=0F:F9:40:76:18:D3:D7:6A:4B:98:F0:A8:35:9E:0C:FD:27:AC:CC:ED
@@ -739,7 +739,7 @@ sha256 Fingerprint=6B:9C:08:E8:6E:B0:F7:67:CF:AD:65:CD:98:B6:21:49:E5:49:4A:67:F
 
 /*
 serial=3E8A5D07EC55D232D5B7E3B65F01EB2DDCE4D6E4
-issuer=C=PL, O=Krajowa Izba Rozliczeniowa S.A., CN=SZAFIR ROOT CA2
+issuer=C = PL, O = Krajowa Izba Rozliczeniowa S.A., CN = SZAFIR ROOT CA2
 notBefore=Oct 19 07:43:30 2015 GMT
 notAfter=Oct 19 07:43:30 2035 GMT
 sha1 Fingerprint=E2:52:FA:95:3F:ED:DB:24:60:BD:6E:28:F3:9C:CC:CF:5E:B3:3F:DE
@@ -750,7 +750,7 @@ sha256 Fingerprint=A1:33:9D:33:28:1A:0B:56:E5:57:D3:D3:2B:1C:E7:F9:36:7E:B0:94:B
 
 /*
 serial=21D6D04A4F250FC93237FCAA5E128DE9
-issuer=C=PL, O=Unizeto Technologies S.A., OU=Certum Certification Authority, CN=Certum Trusted Network CA 2
+issuer=C = PL, O = Unizeto Technologies S.A., OU = Certum Certification Authority, CN = Certum Trusted Network CA 2
 notBefore=Oct  6 08:39:56 2011 GMT
 notAfter=Oct  6 08:39:56 2046 GMT
 sha1 Fingerprint=D3:DD:48:3E:2B:BF:4C:05:E8:AF:10:F5:FA:76:26:CF:D3:DC:30:92
@@ -761,7 +761,7 @@ sha256 Fingerprint=B6:76:F2:ED:DA:E8:77:5C:D3:6C:B0:F6:3C:D1:D4:60:39:61:F4:9E:6
 
 /*
 serial=00
-issuer=C=GR, L=Athens, O=Hellenic Academic and Research Institutions Cert. Authority, CN=Hellenic Academic and Research Institutions RootCA 2015
+issuer=C = GR, L = Athens, O = Hellenic Academic and Research Institutions Cert. Authority, CN = Hellenic Academic and Research Institutions RootCA 2015
 notBefore=Jul  7 10:11:21 2015 GMT
 notAfter=Jun 30 10:11:21 2040 GMT
 sha1 Fingerprint=01:0C:06:95:A6:98:19:14:FF:BF:5F:C6:B0:B6:95:EA:29:E9:12:A6
@@ -772,7 +772,7 @@ sha256 Fingerprint=A0:40:92:9A:02:CE:53:B4:AC:F4:F2:FF:C6:98:1C:E4:49:6F:75:5E:6
 
 /*
 serial=00
-issuer=C=GR, L=Athens, O=Hellenic Academic and Research Institutions Cert. Authority, CN=Hellenic Academic and Research Institutions ECC RootCA 2015
+issuer=C = GR, L = Athens, O = Hellenic Academic and Research Institutions Cert. Authority, CN = Hellenic Academic and Research Institutions ECC RootCA 2015
 notBefore=Jul  7 10:37:12 2015 GMT
 notAfter=Jun 30 10:37:12 2040 GMT
 sha1 Fingerprint=9F:F1:71:8D:92:D5:9A:F3:7D:74:97:B4:BC:6F:84:68:0B:BA:B6:66
@@ -783,7 +783,7 @@ sha256 Fingerprint=44:B5:45:AA:8A:25:E6:5A:73:CA:15:DC:27:FC:36:D2:4C:1C:B9:95:3
 
 /*
 serial=8210CFB0D240E3594463E0BB63828B00
-issuer=C=US, O=Internet Security Research Group, CN=ISRG Root X1
+issuer=C = US, O = Internet Security Research Group, CN = ISRG Root X1
 notBefore=Jun  4 11:04:38 2015 GMT
 notAfter=Jun  4 11:04:38 2035 GMT
 sha1 Fingerprint=CA:BD:2A:79:A1:07:6A:31:F2:1D:25:36:35:CB:03:9D:43:29:A5:E8
@@ -794,7 +794,7 @@ sha256 Fingerprint=96:BC:EC:06:26:49:76:F3:74:60:77:9A:CF:28:C5:A7:CF:E8:A3:C0:A
 
 /*
 serial=5D938D306736C8061D1AC754846907
-issuer=C=ES, O=FNMT-RCM, OU=AC RAIZ FNMT-RCM
+issuer=C = ES, O = FNMT-RCM, OU = AC RAIZ FNMT-RCM
 notBefore=Oct 29 15:59:56 2008 GMT
 notAfter=Jan  1 00:00:00 2030 GMT
 sha1 Fingerprint=EC:50:35:07:B2:15:C4:95:62:19:E2:A8:9A:5B:42:99:2C:4C:2C:20
@@ -805,7 +805,7 @@ sha256 Fingerprint=EB:C5:57:0C:29:01:8C:4D:67:B1:AA:12:7B:AF:12:F7:03:B4:61:1E:B
 
 /*
 serial=066C9FCF99BF8C0A39E2F0788A43E696365BCA
-issuer=C=US, O=Amazon, CN=Amazon Root CA 1
+issuer=C = US, O = Amazon, CN = Amazon Root CA 1
 notBefore=May 26 00:00:00 2015 GMT
 notAfter=Jan 17 00:00:00 2038 GMT
 sha1 Fingerprint=8D:A7:F9:65:EC:5E:FC:37:91:0F:1C:6E:59:FD:C1:CC:6A:6E:DE:16
@@ -816,7 +816,7 @@ sha256 Fingerprint=8E:CD:E6:88:4F:3D:87:B1:12:5B:A3:1A:C3:FC:B1:3D:70:16:DE:7F:5
 
 /*
 serial=066C9FD29635869F0A0FE58678F85B26BB8A37
-issuer=C=US, O=Amazon, CN=Amazon Root CA 2
+issuer=C = US, O = Amazon, CN = Amazon Root CA 2
 notBefore=May 26 00:00:00 2015 GMT
 notAfter=May 26 00:00:00 2040 GMT
 sha1 Fingerprint=5A:8C:EF:45:D7:A6:98:59:76:7A:8C:8B:44:96:B5:78:CF:47:4B:1A
@@ -827,7 +827,7 @@ sha256 Fingerprint=1B:A5:B2:AA:8C:65:40:1A:82:96:01:18:F8:0B:EC:4F:62:30:4D:83:C
 
 /*
 serial=066C9FD5749736663F3B0B9AD9E89E7603F24A
-issuer=C=US, O=Amazon, CN=Amazon Root CA 3
+issuer=C = US, O = Amazon, CN = Amazon Root CA 3
 notBefore=May 26 00:00:00 2015 GMT
 notAfter=May 26 00:00:00 2040 GMT
 sha1 Fingerprint=0D:44:DD:8C:3C:8C:1A:1A:58:75:64:81:E9:0F:2E:2A:FF:B3:D2:6E
@@ -838,7 +838,7 @@ sha256 Fingerprint=18:CE:6C:FE:7B:F1:4E:60:B2:E3:47:B8:DF:E8:68:CB:31:D0:2E:BB:3
 
 /*
 serial=066C9FD7C1BB104C2943E5717B7B2CC81AC10E
-issuer=C=US, O=Amazon, CN=Amazon Root CA 4
+issuer=C = US, O = Amazon, CN = Amazon Root CA 4
 notBefore=May 26 00:00:00 2015 GMT
 notAfter=May 26 00:00:00 2040 GMT
 sha1 Fingerprint=F6:10:84:07:D6:F8:BB:67:98:0C:C2:E2:44:C2:EB:AE:1C:EF:63:BE
@@ -849,7 +849,7 @@ sha256 Fingerprint=E3:5D:28:41:9E:D0:20:25:CF:A6:90:38:CD:62:39:62:45:8D:A5:C6:9
 
 /*
 serial=01
-issuer=C=TR, L=Gebze - Kocaeli, O=Turkiye Bilimsel ve Teknolojik Arastirma Kurumu - TUBITAK, OU=Kamu Sertifikasyon Merkezi - Kamu SM, CN=TUBITAK Kamu SM SSL Kok Sertifikasi - Surum 1
+issuer=C = TR, L = Gebze - Kocaeli, O = Turkiye Bilimsel ve Teknolojik Arastirma Kurumu - TUBITAK, OU = Kamu Sertifikasyon Merkezi - Kamu SM, CN = TUBITAK Kamu SM SSL Kok Sertifikasi - Surum 1
 notBefore=Nov 25 08:25:55 2013 GMT
 notAfter=Oct 25 08:25:55 2043 GMT
 sha1 Fingerprint=31:43:64:9B:EC:CE:27:EC:ED:3A:3F:0B:8F:0D:E4:E8:91:DD:EE:CA
@@ -860,7 +860,7 @@ sha256 Fingerprint=46:ED:C3:68:90:46:D5:3A:45:3F:B3:10:4A:B8:0D:CA:EC:65:8B:26:6
 
 /*
 serial=7D0997FEF047EA7A
-issuer=C=CN, O=GUANG DONG CERTIFICATE AUTHORITY CO.,LTD., CN=GDCA TrustAUTH R5 ROOT
+issuer=C = CN, O = "GUANG DONG CERTIFICATE AUTHORITY CO.,LTD.", CN = GDCA TrustAUTH R5 ROOT
 notBefore=Nov 26 05:13:15 2014 GMT
 notAfter=Dec 31 15:59:59 2040 GMT
 sha1 Fingerprint=0F:36:38:5B:81:1A:25:C3:9B:31:4E:83:CA:E9:34:66:70:CC:74:B4
@@ -871,7 +871,7 @@ sha256 Fingerprint=BF:FF:8F:D0:44:33:48:7D:6A:8A:A6:0C:1A:29:76:7A:9F:C2:BB:B0:5
 
 /*
 serial=7B2C9BD316803299
-issuer=C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com Root Certification Authority RSA
+issuer=C = US, ST = Texas, L = Houston, O = SSL Corporation, CN = SSL.com Root Certification Authority RSA
 notBefore=Feb 12 17:39:39 2016 GMT
 notAfter=Feb 12 17:39:39 2041 GMT
 sha1 Fingerprint=B7:AB:33:08:D1:EA:44:77:BA:14:80:12:5A:6F:BD:A9:36:49:0C:BB
@@ -882,7 +882,7 @@ sha256 Fingerprint=85:66:6A:56:2E:E0:BE:5C:E9:25:C1:D8:89:0A:6F:76:A8:7E:C1:6D:4
 
 /*
 serial=75E6DFCBC1685BA8
-issuer=C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com Root Certification Authority ECC
+issuer=C = US, ST = Texas, L = Houston, O = SSL Corporation, CN = SSL.com Root Certification Authority ECC
 notBefore=Feb 12 18:14:03 2016 GMT
 notAfter=Feb 12 18:14:03 2041 GMT
 sha1 Fingerprint=C3:19:7C:39:24:E6:54:AF:1B:C4:AB:20:95:7A:E2:C3:0E:13:02:6A
@@ -893,7 +893,7 @@ sha256 Fingerprint=34:17:BB:06:CC:60:07:DA:1B:96:1C:92:0B:8A:B4:CE:3F:AD:82:0E:4
 
 /*
 serial=56B629CD34BC78F6
-issuer=C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com EV Root Certification Authority RSA R2
+issuer=C = US, ST = Texas, L = Houston, O = SSL Corporation, CN = SSL.com EV Root Certification Authority RSA R2
 notBefore=May 31 18:14:37 2017 GMT
 notAfter=May 30 18:14:37 2042 GMT
 sha1 Fingerprint=74:3A:F0:52:9B:D0:32:A0:F4:4A:83:CD:D4:BA:A9:7B:7C:2E:C4:9A
@@ -904,7 +904,7 @@ sha256 Fingerprint=2E:7B:F1:6C:C2:24:85:A7:BB:E2:AA:86:96:75:07:61:B0:AE:39:BE:3
 
 /*
 serial=2C299C5B16ED0595
-issuer=C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com EV Root Certification Authority ECC
+issuer=C = US, ST = Texas, L = Houston, O = SSL Corporation, CN = SSL.com EV Root Certification Authority ECC
 notBefore=Feb 12 18:15:23 2016 GMT
 notAfter=Feb 12 18:15:23 2041 GMT
 sha1 Fingerprint=4C:DD:51:A3:D1:F5:20:32:14:B0:C6:C5:32:23:03:91:C7:46:42:6D
@@ -915,7 +915,7 @@ sha256 Fingerprint=22:A2:C1:F7:BD:ED:70:4C:C1:E7:01:B5:F4:08:C3:10:88:0F:E9:56:B
 
 /*
 serial=45E6BB038333C3856548E6FF4551
-issuer=OU=GlobalSign Root CA - R6, O=GlobalSign, CN=GlobalSign
+issuer=OU = GlobalSign Root CA - R6, O = GlobalSign, CN = GlobalSign
 notBefore=Dec 10 00:00:00 2014 GMT
 notAfter=Dec 10 00:00:00 2034 GMT
 sha1 Fingerprint=80:94:64:0E:B5:A7:A1:CA:11:9C:1F:DD:D5:9F:81:02:63:A7:FB:D1
@@ -926,7 +926,7 @@ sha256 Fingerprint=2C:AB:EA:FE:37:D0:6C:A2:2A:BA:73:91:C0:03:3D:25:98:29:52:C4:5
 
 /*
 serial=212A560CAEDA0CAB4045BF2BA22D3AEA
-issuer=C=CH, O=WISeKey, OU=OISTE Foundation Endorsed, CN=OISTE WISeKey Global Root GC CA
+issuer=C = CH, O = WISeKey, OU = OISTE Foundation Endorsed, CN = OISTE WISeKey Global Root GC CA
 notBefore=May  9 09:48:34 2017 GMT
 notAfter=May  9 09:58:33 2042 GMT
 sha1 Fingerprint=E0:11:84:5E:34:DE:BE:88:81:B9:9C:F6:16:26:D1:96:1F:C3:B9:31
@@ -937,7 +937,7 @@ sha256 Fingerprint=85:60:F9:1C:36:24:DA:BA:95:70:B5:FE:A0:DB:E3:6F:F1:1A:83:23:B
 
 /*
 serial=5DDFB1DA5AA3ED5DBE5A6520650390EF
-issuer=C=CN, O=UniTrust, CN=UCA Global G2 Root
+issuer=C = CN, O = UniTrust, CN = UCA Global G2 Root
 notBefore=Mar 11 00:00:00 2016 GMT
 notAfter=Dec 31 00:00:00 2040 GMT
 sha1 Fingerprint=28:F9:78:16:19:7A:FF:18:25:18:AA:44:FE:C1:A0:CE:5C:B6:4C:8A
@@ -948,7 +948,7 @@ sha256 Fingerprint=9B:EA:11:C9:76:FE:01:47:64:C1:BE:56:A6:F9:14:B5:A5:60:31:7A:B
 
 /*
 serial=4FD22B8FF564C8339E4F345866237060
-issuer=C=CN, O=UniTrust, CN=UCA Extended Validation Root
+issuer=C = CN, O = UniTrust, CN = UCA Extended Validation Root
 notBefore=Mar 13 00:00:00 2015 GMT
 notAfter=Dec 31 00:00:00 2038 GMT
 sha1 Fingerprint=A3:A1:B0:6F:24:61:23:4A:E3:36:A5:C2:37:FC:A6:FF:DD:F0:D7:3A
@@ -959,7 +959,7 @@ sha256 Fingerprint=D4:3A:F9:B3:54:73:75:5C:96:84:FC:06:D7:D8:CB:70:EE:5C:28:E7:7
 
 /*
 serial=CAE91B89F155030DA3E6416DC4E3A6E1
-issuer=C=FR, O=Dhimyotis, OU=0002 48146308100036, CN=Certigna Root CA
+issuer=C = FR, O = Dhimyotis, OU = 0002 48146308100036, CN = Certigna Root CA
 notBefore=Oct  1 08:32:27 2013 GMT
 notAfter=Oct  1 08:32:27 2033 GMT
 sha1 Fingerprint=2D:0D:52:14:FF:9E:AD:99:24:01:74:20:47:6E:6C:85:27:27:F5:43
@@ -970,7 +970,7 @@ sha256 Fingerprint=D4:8D:3D:23:EE:DB:50:A4:59:E5:51:97:60:1C:27:77:4B:9D:7B:18:C
 
 /*
 serial=31F5E4620C6C58EDD6D8
-issuer=C=IN, OU=emSign PKI, O=eMudhra Technologies Limited, CN=emSign Root CA - G1
+issuer=C = IN, OU = emSign PKI, O = eMudhra Technologies Limited, CN = emSign Root CA - G1
 notBefore=Feb 18 18:30:00 2018 GMT
 notAfter=Feb 18 18:30:00 2043 GMT
 sha1 Fingerprint=8A:C7:AD:8F:73:AC:4E:C1:B5:75:4D:A5:40:F4:FC:CF:7C:B5:8E:8C
@@ -981,7 +981,7 @@ sha256 Fingerprint=40:F6:AF:03:46:A9:9A:A1:CD:1D:55:5A:4E:9C:CE:62:C7:F9:63:46:0
 
 /*
 serial=3CF607A968700EDA8B84
-issuer=C=IN, OU=emSign PKI, O=eMudhra Technologies Limited, CN=emSign ECC Root CA - G3
+issuer=C = IN, OU = emSign PKI, O = eMudhra Technologies Limited, CN = emSign ECC Root CA - G3
 notBefore=Feb 18 18:30:00 2018 GMT
 notAfter=Feb 18 18:30:00 2043 GMT
 sha1 Fingerprint=30:43:FA:4F:F2:57:DC:A0:C3:80:EE:2E:58:EA:78:B2:3F:E6:BB:C1
@@ -992,7 +992,7 @@ sha256 Fingerprint=86:A1:EC:BA:08:9C:4A:8D:3B:BE:27:34:C6:12:BA:34:1D:81:3E:04:3
 
 /*
 serial=AECF00BAC4CF32F843B2
-issuer=C=US, OU=emSign PKI, O=eMudhra Inc, CN=emSign Root CA - C1
+issuer=C = US, OU = emSign PKI, O = eMudhra Inc, CN = emSign Root CA - C1
 notBefore=Feb 18 18:30:00 2018 GMT
 notAfter=Feb 18 18:30:00 2043 GMT
 sha1 Fingerprint=E7:2E:F1:DF:FC:B2:09:28:CF:5D:D4:D5:67:37:B1:51:CB:86:4F:01
@@ -1003,7 +1003,7 @@ sha256 Fingerprint=12:56:09:AA:30:1D:A0:A2:49:B9:7A:82:39:CB:6A:34:21:6F:44:DC:A
 
 /*
 serial=7B71B68256B8127C9CA8
-issuer=C=US, OU=emSign PKI, O=eMudhra Inc, CN=emSign ECC Root CA - C3
+issuer=C = US, OU = emSign PKI, O = eMudhra Inc, CN = emSign ECC Root CA - C3
 notBefore=Feb 18 18:30:00 2018 GMT
 notAfter=Feb 18 18:30:00 2043 GMT
 sha1 Fingerprint=B6:AF:43:C2:9B:81:53:7D:F6:EF:6B:C3:1F:1F:60:15:0C:EE:48:66
@@ -1014,7 +1014,7 @@ sha256 Fingerprint=BC:4D:80:9B:15:18:9D:78:DB:3E:1D:8C:F4:F9:72:6A:79:5D:A1:64:3
 
 /*
 serial=08165F8A4CA5EC00C99340DFC4C6AE23B81C5AA4
-issuer=C=HK, ST=Hong Kong, L=Hong Kong, O=Hongkong Post, CN=Hongkong Post Root CA 3
+issuer=C = HK, ST = Hong Kong, L = Hong Kong, O = Hongkong Post, CN = Hongkong Post Root CA 3
 notBefore=Jun  3 02:29:46 2017 GMT
 notAfter=Jun  3 02:29:46 2042 GMT
 sha1 Fingerprint=58:A2:D0:EC:20:52:81:5B:C1:F3:F8:64:02:24:4E:C2:8E:02:4B:02
@@ -1025,7 +1025,7 @@ sha256 Fingerprint=5A:2F:C0:3F:0C:83:B0:90:BB:FA:40:60:4B:09:88:44:6C:76:36:18:3
 
 /*
 serial=D9B5437FAFA9390F000000005565AD58
-issuer=C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2015 Entrust, Inc. - for authorized use only, CN=Entrust Root Certification Authority - G4
+issuer=C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2015 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G4
 notBefore=May 27 11:11:16 2015 GMT
 notAfter=Dec 27 11:41:16 2037 GMT
 sha1 Fingerprint=14:88:4E:86:26:37:B0:26:AF:59:62:5C:40:77:EC:35:29:BA:96:01
@@ -1036,7 +1036,7 @@ sha256 Fingerprint=DB:35:17:D1:F6:73:2A:2D:5A:B9:7C:53:3E:C7:07:79:EE:32:70:A6:2
 
 /*
 serial=66F23DAF87DE8BB14AEA0C573101C2EC
-issuer=C=US, O=Microsoft Corporation, CN=Microsoft ECC Root Certificate Authority 2017
+issuer=C = US, O = Microsoft Corporation, CN = Microsoft ECC Root Certificate Authority 2017
 notBefore=Dec 18 23:06:45 2019 GMT
 notAfter=Jul 18 23:16:04 2042 GMT
 sha1 Fingerprint=99:9A:64:C3:7F:F4:7D:9F:AB:95:F1:47:69:89:14:60:EE:C4:C3:C5
@@ -1047,7 +1047,7 @@ sha256 Fingerprint=35:8D:F3:9D:76:4A:F9:E1:B7:66:E9:C9:72:DF:35:2E:E1:5C:FA:C2:2
 
 /*
 serial=1ED397095FD8B4B347701EAABE7F45B3
-issuer=C=US, O=Microsoft Corporation, CN=Microsoft RSA Root Certificate Authority 2017
+issuer=C = US, O = Microsoft Corporation, CN = Microsoft RSA Root Certificate Authority 2017
 notBefore=Dec 18 22:51:22 2019 GMT
 notAfter=Jul 18 23:00:23 2042 GMT
 sha1 Fingerprint=73:A5:E6:4A:3B:FF:83:16:FF:0E:DC:CC:61:8A:90:6E:4E:AE:4D:74
@@ -1058,7 +1058,7 @@ sha256 Fingerprint=C7:41:F7:0F:4B:2A:8D:88:BF:2E:71:C1:41:22:EF:53:EF:10:EB:A0:C
 
 /*
 serial=015448EF21FD97590DF5040A
-issuer=C=HU, L=Budapest, O=Microsec Ltd., organizationIdentifier=VATHU-23584497, CN=e-Szigno Root CA 2017
+issuer=C = HU, L = Budapest, O = Microsec Ltd., organizationIdentifier = VATHU-23584497, CN = e-Szigno Root CA 2017
 notBefore=Aug 22 12:07:06 2017 GMT
 notAfter=Aug 22 12:07:06 2042 GMT
 sha1 Fingerprint=89:D4:83:03:4F:9E:9A:48:80:5F:72:37:D4:A9:A6:EF:CB:7C:1F:D1
@@ -1069,7 +1069,7 @@ sha256 Fingerprint=BE:B0:0B:30:83:9B:9B:C3:2C:32:E4:44:79:05:95:06:41:F2:64:21:B
 
 /*
 serial=110034B64EC6362D36
-issuer=C=RO, O=CERTSIGN SA, OU=certSIGN ROOT CA G2
+issuer=C = RO, O = CERTSIGN SA, OU = certSIGN ROOT CA G2
 notBefore=Feb  6 09:27:35 2017 GMT
 notAfter=Feb  6 09:27:35 2042 GMT
 sha1 Fingerprint=26:F9:93:B4:ED:3D:28:27:B0:B9:4B:A7:E9:15:1D:A3:8D:92:E5:32
@@ -1080,7 +1080,7 @@ sha256 Fingerprint=65:7C:FE:2F:A7:3F:AA:38:46:25:71:F3:32:A2:36:3A:46:FC:E7:02:0
 
 /*
 serial=05F70E86DA49F346352EBAB2
-issuer=C=US, ST=Illinois, L=Chicago, O=Trustwave Holdings, Inc., CN=Trustwave Global Certification Authority
+issuer=C = US, ST = Illinois, L = Chicago, O = "Trustwave Holdings, Inc.", CN = Trustwave Global Certification Authority
 notBefore=Aug 23 19:34:12 2017 GMT
 notAfter=Aug 23 19:34:12 2042 GMT
 sha1 Fingerprint=2F:8F:36:4F:E1:58:97:44:21:59:87:A5:2A:9A:D0:69:95:26:7F:B5
@@ -1091,7 +1091,7 @@ sha256 Fingerprint=97:55:20:15:F5:DD:FC:3C:87:88:C0:06:94:45:55:40:88:94:45:00:8
 
 /*
 serial=0D6A5F083F285C3E5195DF5D
-issuer=C=US, ST=Illinois, L=Chicago, O=Trustwave Holdings, Inc., CN=Trustwave Global ECC P256 Certification Authority
+issuer=C = US, ST = Illinois, L = Chicago, O = "Trustwave Holdings, Inc.", CN = Trustwave Global ECC P256 Certification Authority
 notBefore=Aug 23 19:35:10 2017 GMT
 notAfter=Aug 23 19:35:10 2042 GMT
 sha1 Fingerprint=B4:90:82:DD:45:0C:BE:8B:5B:B1:66:D3:E2:A4:08:26:CD:ED:42:CF
@@ -1102,7 +1102,7 @@ sha256 Fingerprint=94:5B:BC:82:5E:A5:54:F4:89:D1:FD:51:A7:3D:DF:2E:A6:24:AC:70:1
 
 /*
 serial=08BD85976C9927A48068473B
-issuer=C=US, ST=Illinois, L=Chicago, O=Trustwave Holdings, Inc., CN=Trustwave Global ECC P384 Certification Authority
+issuer=C = US, ST = Illinois, L = Chicago, O = "Trustwave Holdings, Inc.", CN = Trustwave Global ECC P384 Certification Authority
 notBefore=Aug 23 19:36:43 2017 GMT
 notAfter=Aug 23 19:36:43 2042 GMT
 sha1 Fingerprint=E7:F3:A3:C8:CF:6F:C3:04:2E:6D:0E:67:32:C5:9E:68:95:0D:5E:D2
@@ -1113,7 +1113,7 @@ sha256 Fingerprint=55:90:38:59:C8:C0:C3:EB:B8:75:9E:CE:4E:25:57:22:5F:F5:75:8B:B
 
 /*
 serial=0194301EA20BDDF5C5332AB1434471F8D6504D0D
-issuer=C=KR, O=NAVER BUSINESS PLATFORM Corp., CN=NAVER Global Root Certification Authority
+issuer=C = KR, O = NAVER BUSINESS PLATFORM Corp., CN = NAVER Global Root Certification Authority
 notBefore=Aug 18 08:58:42 2017 GMT
 notAfter=Aug 18 23:59:59 2037 GMT
 sha1 Fingerprint=8F:6B:F2:A9:27:4A:DA:14:A0:C4:F4:8E:61:27:F9:C0:1E:78:5D:D1
@@ -1124,7 +1124,7 @@ sha256 Fingerprint=88:F4:38:DC:F8:FF:D1:FA:8F:42:91:15:FF:E5:F8:2A:E1:E0:6E:0C:7
 
 /*
 serial=62F6326CE5C4E3685C1B62DD9C2E9D95
-issuer=C=ES, O=FNMT-RCM, OU=Ceres, organizationIdentifier=VATES-Q2826004J, CN=AC RAIZ FNMT-RCM SERVIDORES SEGUROS
+issuer=C = ES, O = FNMT-RCM, OU = Ceres, organizationIdentifier = VATES-Q2826004J, CN = AC RAIZ FNMT-RCM SERVIDORES SEGUROS
 notBefore=Dec 20 09:37:33 2018 GMT
 notAfter=Dec 20 09:37:33 2043 GMT
 sha1 Fingerprint=62:FF:D9:9E:C0:65:0D:03:CE:75:93:D2:ED:3F:2D:32:C9:E3:E5:4A
@@ -1135,7 +1135,7 @@ sha256 Fingerprint=55:41:53:B1:3D:2C:F9:DD:B7:53:BF:BE:1A:4E:0A:E0:8D:0A:A4:18:7
 
 /*
 serial=11D2BBB9D723189E405F0A9D2DD0DF2567D1
-issuer=C=BE, O=GlobalSign nv-sa, CN=GlobalSign Root R46
+issuer=C = BE, O = GlobalSign nv-sa, CN = GlobalSign Root R46
 notBefore=Mar 20 00:00:00 2019 GMT
 notAfter=Mar 20 00:00:00 2046 GMT
 sha1 Fingerprint=53:A2:B0:4B:CA:6B:D6:45:E6:39:8A:8E:C4:0D:D2:BF:77:C3:A2:90
@@ -1146,7 +1146,7 @@ sha256 Fingerprint=4F:A3:12:6D:8D:3A:11:D1:C4:85:5A:4F:80:7C:BA:D6:CF:91:9D:3A:5
 
 /*
 serial=11D2BBBA336ED4BCE62468C50D841D98E843
-issuer=C=BE, O=GlobalSign nv-sa, CN=GlobalSign Root E46
+issuer=C = BE, O = GlobalSign nv-sa, CN = GlobalSign Root E46
 notBefore=Mar 20 00:00:00 2019 GMT
 notAfter=Mar 20 00:00:00 2046 GMT
 sha1 Fingerprint=39:B4:6C:D5:FE:80:06:EB:E2:2F:4A:BB:08:33:A0:AF:DB:B9:DD:84
@@ -1157,7 +1157,7 @@ sha256 Fingerprint=CB:B9:C4:4D:84:B8:04:3E:10:50:EA:31:A6:9F:51:49:55:D7:BF:D2:E
 
 /*
 serial=5A4BBD5AFB4F8A5BFA65E5
-issuer=C=AT, O=e-commerce monitoring GmbH, CN=GLOBALTRUST 2020
+issuer=C = AT, O = e-commerce monitoring GmbH, CN = GLOBALTRUST 2020
 notBefore=Feb 10 00:00:00 2020 GMT
 notAfter=Jun 10 00:00:00 2040 GMT
 sha1 Fingerprint=D0:67:C1:13:51:01:0C:AA:D0:C7:6A:65:37:31:16:26:4F:53:71:A2
@@ -1168,7 +1168,7 @@ sha256 Fingerprint=9A:29:6A:51:82:D1:D4:51:A2:E3:7F:43:9B:74:DA:AF:A2:67:52:33:2
 
 /*
 serial=0DD3E3BC6CF96BB1
-issuer=serialNumber=G63287510, C=ES, O=ANF Autoridad de Certificacion, OU=ANF CA Raiz, CN=ANF Secure Server Root CA
+issuer=serialNumber = G63287510, C = ES, O = ANF Autoridad de Certificacion, OU = ANF CA Raiz, CN = ANF Secure Server Root CA
 notBefore=Sep  4 10:00:38 2019 GMT
 notAfter=Aug 30 10:00:38 2039 GMT
 sha1 Fingerprint=5B:6E:68:D0:CC:15:B6:A0:5F:1E:C1:5F:AE:02:FC:6B:2F:5D:6F:74
@@ -1179,7 +1179,7 @@ sha256 Fingerprint=FB:8F:EC:75:91:69:B9:10:6B:1E:51:16:44:C6:18:C5:13:04:37:3F:6
 
 /*
 serial=788F275C81125220A504D02DDDBA73F4
-issuer=C=PL, O=Asseco Data Systems S.A., OU=Certum Certification Authority, CN=Certum EC-384 CA
+issuer=C = PL, O = Asseco Data Systems S.A., OU = Certum Certification Authority, CN = Certum EC-384 CA
 notBefore=Mar 26 07:24:54 2018 GMT
 notAfter=Mar 26 07:24:54 2043 GMT
 sha1 Fingerprint=F3:3E:78:3C:AC:DF:F4:A2:CC:AC:67:55:69:56:D7:E5:16:3C:E1:ED
@@ -1190,7 +1190,7 @@ sha256 Fingerprint=6B:32:80:85:62:53:18:AA:50:D1:73:C9:8D:8B:DA:09:D5:7E:27:41:3
 
 /*
 serial=1EBF5950B8C980374C06F7EB554FB5ED
-issuer=C=PL, O=Asseco Data Systems S.A., OU=Certum Certification Authority, CN=Certum Trusted Root CA
+issuer=C = PL, O = Asseco Data Systems S.A., OU = Certum Certification Authority, CN = Certum Trusted Root CA
 notBefore=Mar 16 12:10:13 2018 GMT
 notAfter=Mar 16 12:10:13 2043 GMT
 sha1 Fingerprint=C8:83:44:C0:18:AE:9F:CC:F1:87:B7:8F:22:D1:C5:D7:45:84:BA:E5
@@ -1201,7 +1201,7 @@ sha256 Fingerprint=FE:76:96:57:38:55:77:3E:37:A9:5E:7A:D4:D9:CC:96:C3:01:57:C1:5
 
 /*
 serial=1302D5E2404C92468616675DB4BBBBB26B3EFC13
-issuer=C=TN, O=Agence Nationale de Certification Electronique, CN=TunTrust Root CA
+issuer=C = TN, O = Agence Nationale de Certification Electronique, CN = TunTrust Root CA
 notBefore=Apr 26 08:57:56 2019 GMT
 notAfter=Apr 26 08:57:56 2044 GMT
 sha1 Fingerprint=CF:E9:70:84:0F:E0:73:0F:9D:F6:0C:7F:2C:4B:EE:20:46:34:9C:BB
@@ -1212,7 +1212,7 @@ sha256 Fingerprint=2E:44:10:2A:B5:8C:B8:54:19:45:1C:8E:19:D9:AC:F3:66:2C:AF:BC:6
 
 /*
 serial=39CA931CEF43F3C68E93C7F46489387E
-issuer=C=GR, O=Hellenic Academic and Research Institutions CA, CN=HARICA TLS RSA Root CA 2021
+issuer=C = GR, O = Hellenic Academic and Research Institutions CA, CN = HARICA TLS RSA Root CA 2021
 notBefore=Feb 19 10:55:38 2021 GMT
 notAfter=Feb 13 10:55:37 2045 GMT
 sha1 Fingerprint=02:2D:05:82:FA:88:CE:14:0C:06:79:DE:7F:14:10:E9:45:D7:A5:6D
@@ -1223,7 +1223,7 @@ sha256 Fingerprint=D9:5D:0E:8E:DA:79:52:5B:F9:BE:B1:1B:14:D2:10:0D:32:94:98:5F:0
 
 /*
 serial=67749D8D77D83B6ADB22F4FF59E2BFCE
-issuer=C=GR, O=Hellenic Academic and Research Institutions CA, CN=HARICA TLS ECC Root CA 2021
+issuer=C = GR, O = Hellenic Academic and Research Institutions CA, CN = HARICA TLS ECC Root CA 2021
 notBefore=Feb 19 11:01:10 2021 GMT
 notAfter=Feb 13 11:01:09 2045 GMT
 sha1 Fingerprint=BC:B0:C1:9D:E9:98:92:70:19:38:57:E9:8D:A7:B4:5D:6E:EE:01:48
@@ -1234,7 +1234,7 @@ sha256 Fingerprint=3F:99:CC:47:4A:CF:CE:4D:FE:D5:87:94:66:5E:47:8D:15:47:73:9F:2
 
 /*
 serial=1B70E9D2FFAE6C71
-issuer=C=ES, CN=Autoridad de Certificacion Firmaprofesional CIF A62634068
+issuer=C = ES, CN = Autoridad de Certificacion Firmaprofesional CIF A62634068
 notBefore=Sep 23 15:22:07 2014 GMT
 notAfter=May  5 15:22:07 2036 GMT
 sha1 Fingerprint=0B:BE:C2:27:22:49:CB:39:AA:DB:35:5C:53:E3:8C:AE:78:FF:B6:FE
@@ -1245,7 +1245,7 @@ sha256 Fingerprint=57:DE:05:83:EF:D2:B2:6E:03:61:DA:99:DA:9D:F4:64:8D:EF:7E:E8:4
 
 /*
 serial=6E6ABC59AA53BE983967A2D26BA43BE66D1CD6DA
-issuer=C=CN, O=iTrusChina Co.,Ltd., CN=vTrus ECC Root CA
+issuer=C = CN, O = "iTrusChina Co.,Ltd.", CN = vTrus ECC Root CA
 notBefore=Jul 31 07:26:44 2018 GMT
 notAfter=Jul 31 07:26:44 2043 GMT
 sha1 Fingerprint=F6:9C:DB:B0:FC:F6:02:13:B6:52:32:A6:A3:91:3F:16:70:DA:C3:E1
@@ -1256,7 +1256,7 @@ sha256 Fingerprint=30:FB:BA:2C:32:23:8E:2A:98:54:7A:F9:79:31:E5:50:42:8B:9B:3F:1
 
 /*
 serial=43E37113D8B359145DB7CE8CFD35FD6FBC058D45
-issuer=C=CN, O=iTrusChina Co.,Ltd., CN=vTrus Root CA
+issuer=C = CN, O = "iTrusChina Co.,Ltd.", CN = vTrus Root CA
 notBefore=Jul 31 07:24:05 2018 GMT
 notAfter=Jul 31 07:24:05 2043 GMT
 sha1 Fingerprint=84:1A:69:FB:F5:CD:1A:25:34:13:3D:E3:F8:FC:B8:99:D0:C9:14:B7
@@ -1267,7 +1267,7 @@ sha256 Fingerprint=8A:71:DE:65:59:33:6F:42:6C:26:E5:38:80:D0:0D:88:A1:8D:A4:C6:A
 
 /*
 serial=41D29DD172EAEEA780C12C6CE92F8752
-issuer=C=US, O=Internet Security Research Group, CN=ISRG Root X2
+issuer=C = US, O = Internet Security Research Group, CN = ISRG Root X2
 notBefore=Sep  4 00:00:00 2020 GMT
 notAfter=Sep 17 16:00:00 2040 GMT
 sha1 Fingerprint=BD:B1:B9:3C:D5:97:8D:45:C6:26:14:55:F8:DB:95:C7:5A:D1:53:AF
@@ -1278,7 +1278,7 @@ sha256 Fingerprint=69:72:9B:8E:15:A8:6E:FC:17:7A:57:AF:B7:17:1D:FC:64:AD:D2:8C:2
 
 /*
 serial=2DDDACCE629794A143E8B0CD766A5E60
-issuer=C=TW, O=Chunghwa Telecom Co., Ltd., CN=HiPKI Root CA - G1
+issuer=C = TW, O = "Chunghwa Telecom Co., Ltd.", CN = HiPKI Root CA - G1
 notBefore=Feb 22 09:46:04 2019 GMT
 notAfter=Dec 31 15:59:59 2037 GMT
 sha1 Fingerprint=6A:92:E4:A8:EE:1B:EC:96:45:37:E3:29:57:49:CD:96:E3:E5:D2:60
@@ -1289,7 +1289,7 @@ sha256 Fingerprint=F0:15:CE:3C:C2:39:BF:EF:06:4B:E9:F1:D2:C4:17:E1:A0:26:4A:0A:9
 
 /*
 serial=0203E57EF53F93FDA50921B2A6
-issuer=OU=GlobalSign ECC Root CA - R4, O=GlobalSign, CN=GlobalSign
+issuer=OU = GlobalSign ECC Root CA - R4, O = GlobalSign, CN = GlobalSign
 notBefore=Nov 13 00:00:00 2012 GMT
 notAfter=Jan 19 03:14:07 2038 GMT
 sha1 Fingerprint=6B:A0:B0:98:E1:71:EF:5A:AD:FE:48:15:80:77:10:F4:BD:6F:0B:28
@@ -1300,7 +1300,7 @@ sha256 Fingerprint=B0:85:D7:0B:96:4F:19:1A:73:E4:AF:0D:54:AE:7A:0E:07:AA:FD:AF:9
 
 /*
 serial=0203E5936F31B01349886BA217
-issuer=C=US, O=Google Trust Services LLC, CN=GTS Root R1
+issuer=C = US, O = Google Trust Services LLC, CN = GTS Root R1
 notBefore=Jun 22 00:00:00 2016 GMT
 notAfter=Jun 22 00:00:00 2036 GMT
 sha1 Fingerprint=E5:8C:1C:C4:91:3B:38:63:4B:E9:10:6E:E3:AD:8E:6B:9D:D9:81:4A
@@ -1311,7 +1311,7 @@ sha256 Fingerprint=D9:47:43:2A:BD:E7:B7:FA:90:FC:2E:6B:59:10:1B:12:80:E0:E1:C7:E
 
 /*
 serial=0203E5AEC58D04251AAB1125AA
-issuer=C=US, O=Google Trust Services LLC, CN=GTS Root R2
+issuer=C = US, O = Google Trust Services LLC, CN = GTS Root R2
 notBefore=Jun 22 00:00:00 2016 GMT
 notAfter=Jun 22 00:00:00 2036 GMT
 sha1 Fingerprint=9A:44:49:76:32:DB:DE:FA:D0:BC:FB:5A:7B:17:BD:9E:56:09:24:94
@@ -1322,7 +1322,7 @@ sha256 Fingerprint=8D:25:CD:97:22:9D:BF:70:35:6B:DA:4E:B3:CC:73:40:31:E2:4C:F0:0
 
 /*
 serial=0203E5B882EB20F825276D3D66
-issuer=C=US, O=Google Trust Services LLC, CN=GTS Root R3
+issuer=C = US, O = Google Trust Services LLC, CN = GTS Root R3
 notBefore=Jun 22 00:00:00 2016 GMT
 notAfter=Jun 22 00:00:00 2036 GMT
 sha1 Fingerprint=ED:E5:71:80:2B:C8:92:B9:5B:83:3C:D2:32:68:3F:09:CD:A0:1E:46
@@ -1333,7 +1333,7 @@ sha256 Fingerprint=34:D8:A7:3E:E2:08:D9:BC:DB:0D:95:65:20:93:4B:4E:40:E6:94:82:5
 
 /*
 serial=0203E5C068EF631A9C72905052
-issuer=C=US, O=Google Trust Services LLC, CN=GTS Root R4
+issuer=C = US, O = Google Trust Services LLC, CN = GTS Root R4
 notBefore=Jun 22 00:00:00 2016 GMT
 notAfter=Jun 22 00:00:00 2036 GMT
 sha1 Fingerprint=77:D3:03:67:B5:E0:0C:15:F6:0C:38:61:DF:7C:E1:3B:92:46:4D:47
@@ -1344,7 +1344,7 @@ sha256 Fingerprint=34:9D:FA:40:58:C5:E2:63:12:3B:39:8A:E7:95:57:3C:4E:13:13:C8:3
 
 /*
 serial=01675F27D6FE7AE3E4ACBE095B059E
-issuer=C=FI, O=Telia Finland Oyj, CN=Telia Root CA v2
+issuer=C = FI, O = Telia Finland Oyj, CN = Telia Root CA v2
 notBefore=Nov 29 11:55:54 2018 GMT
 notAfter=Nov 29 11:55:54 2043 GMT
 sha1 Fingerprint=B9:99:CD:D1:73:50:8A:C4:47:05:08:9C:8C:88:FB:BE:A0:2B:40:CD
@@ -1355,7 +1355,7 @@ sha256 Fingerprint=24:2B:69:74:2F:CB:1E:5B:2A:BF:98:89:8B:94:57:21:87:54:4E:5B:4
 
 /*
 serial=7CC98F2B84D7DFEA0FC9659AD34B4D96
-issuer=C=DE, O=D-Trust GmbH, CN=D-TRUST BR Root CA 1 2020
+issuer=C = DE, O = D-Trust GmbH, CN = D-TRUST BR Root CA 1 2020
 notBefore=Feb 11 09:45:00 2020 GMT
 notAfter=Feb 11 09:44:59 2035 GMT
 sha1 Fingerprint=1F:5B:98:F0:E3:B5:F7:74:3C:ED:E6:B0:36:7D:32:CD:F4:09:41:67
@@ -1366,7 +1366,7 @@ sha256 Fingerprint=E5:9A:AA:81:60:09:C2:2B:FF:5B:25:BA:D3:7D:F3:06:F0:49:79:7C:1
 
 /*
 serial=5F0241D77A877C4C03A3AC968DFBFFD0
-issuer=C=DE, O=D-Trust GmbH, CN=D-TRUST EV Root CA 1 2020
+issuer=C = DE, O = D-Trust GmbH, CN = D-TRUST EV Root CA 1 2020
 notBefore=Feb 11 10:00:00 2020 GMT
 notAfter=Feb 11 09:59:59 2035 GMT
 sha1 Fingerprint=61:DB:8C:21:59:69:03:90:D8:7C:9C:12:86:54:CF:9D:3D:F4:DD:07
@@ -1377,7 +1377,7 @@ sha256 Fingerprint=08:17:0D:1A:A3:64:53:90:1A:2F:95:92:45:E3:47:DB:0C:8D:37:AB:A
 
 /*
 serial=09E09365ACF7D9C8B93E1C0B042A2EF3
-issuer=C=US, O=DigiCert, Inc., CN=DigiCert TLS ECC P384 Root G5
+issuer=C = US, O = "DigiCert, Inc.", CN = DigiCert TLS ECC P384 Root G5
 notBefore=Jan 15 00:00:00 2021 GMT
 notAfter=Jan 14 23:59:59 2046 GMT
 sha1 Fingerprint=17:F3:DE:5E:9F:0F:19:E9:8E:F6:1F:32:26:6E:20:C4:07:AE:30:EE
@@ -1388,7 +1388,7 @@ sha256 Fingerprint=01:8E:13:F0:77:25:32:CF:80:9B:D1:B1:72:81:86:72:83:FC:48:C6:E
 
 /*
 serial=08F9B478A8FA7EDA6A333789DE7CCF8A
-issuer=C=US, O=DigiCert, Inc., CN=DigiCert TLS RSA4096 Root G5
+issuer=C = US, O = "DigiCert, Inc.", CN = DigiCert TLS RSA4096 Root G5
 notBefore=Jan 15 00:00:00 2021 GMT
 notAfter=Jan 14 23:59:59 2046 GMT
 sha1 Fingerprint=A7:88:49:DC:5D:7C:75:8C:8C:DE:39:98:56:B3:AA:D0:B2:A5:71:35
@@ -1399,7 +1399,7 @@ sha256 Fingerprint=37:1A:00:DC:05:33:B3:72:1A:7E:EB:40:E8:41:9E:70:79:9D:2B:0A:0
 
 /*
 serial=8E0FF94B907168653354F4D44439B7E0
-issuer=C=US, O=Certainly, CN=Certainly Root R1
+issuer=C = US, O = Certainly, CN = Certainly Root R1
 notBefore=Apr  1 00:00:00 2021 GMT
 notAfter=Apr  1 00:00:00 2046 GMT
 sha1 Fingerprint=A0:50:EE:0F:28:71:F4:27:B2:12:6D:6F:50:96:25:BA:CC:86:42:AF
@@ -1410,7 +1410,7 @@ sha256 Fingerprint=77:B8:2C:D8:64:4C:43:05:F7:AC:C5:CB:15:6B:45:67:50:04:03:3D:5
 
 /*
 serial=062533B1470333275CF98D9AB9BFCCF8
-issuer=C=US, O=Certainly, CN=Certainly Root E1
+issuer=C = US, O = Certainly, CN = Certainly Root E1
 notBefore=Apr  1 00:00:00 2021 GMT
 notAfter=Apr  1 00:00:00 2046 GMT
 sha1 Fingerprint=F9:E1:6D:DC:01:89:CF:D5:82:45:63:3E:C5:37:7D:C2:EB:93:6F:2B
@@ -1421,7 +1421,7 @@ sha256 Fingerprint=B4:58:5F:22:E4:AC:75:6A:4E:86:12:A1:36:1C:5D:9D:03:1A:93:FD:8
 
 /*
 serial=E17C3740FD1BFE67
-issuer=C=JP, O=SECOM Trust Systems CO.,LTD., CN=Security Communication RootCA3
+issuer=C = JP, O = "SECOM Trust Systems CO.,LTD.", CN = Security Communication RootCA3
 notBefore=Jun 16 06:17:16 2016 GMT
 notAfter=Jan 18 06:17:16 2038 GMT
 sha1 Fingerprint=C3:03:C8:22:74:92:E5:61:A2:9C:5F:79:91:2B:1E:44:13:91:30:3A
@@ -1432,7 +1432,7 @@ sha256 Fingerprint=24:A5:5C:2A:B0:51:44:2D:06:17:76:65:41:23:9A:4A:D0:32:D7:C5:5
 
 /*
 serial=D65D9BB378812EEB
-issuer=C=JP, O=SECOM Trust Systems CO.,LTD., CN=Security Communication ECC RootCA1
+issuer=C = JP, O = "SECOM Trust Systems CO.,LTD.", CN = Security Communication ECC RootCA1
 notBefore=Jun 16 05:15:28 2016 GMT
 notAfter=Jan 18 05:15:28 2038 GMT
 sha1 Fingerprint=B8:0E:26:A9:BF:D2:B2:3B:C0:EF:46:C9:BA:C7:BB:F6:1D:0D:41:41
@@ -1443,7 +1443,7 @@ sha256 Fingerprint=E7:4F:BD:A5:5B:D5:64:C4:73:A3:6B:44:1A:A7:99:C8:A6:8E:07:74:4
 
 /*
 serial=556F65E3B4D9906A1B09D16C3EC06C20
-issuer=C=CN, O=BEIJING CERTIFICATE AUTHORITY, CN=BJCA Global Root CA1
+issuer=C = CN, O = BEIJING CERTIFICATE AUTHORITY, CN = BJCA Global Root CA1
 notBefore=Dec 19 03:16:17 2019 GMT
 notAfter=Dec 12 03:16:17 2044 GMT
 sha1 Fingerprint=D5:EC:8D:7B:4C:BA:79:F4:E7:E8:CB:9D:6B:AE:77:83:10:03:21:6A
@@ -1454,7 +1454,7 @@ sha256 Fingerprint=F3:89:6F:88:FE:7C:0A:88:27:66:A7:FA:6A:D2:74:9F:B5:7A:7F:3E:9
 
 /*
 serial=2C17087D642AC0FE85185906CFB44AEB
-issuer=C=CN, O=BEIJING CERTIFICATE AUTHORITY, CN=BJCA Global Root CA2
+issuer=C = CN, O = BEIJING CERTIFICATE AUTHORITY, CN = BJCA Global Root CA2
 notBefore=Dec 19 03:18:21 2019 GMT
 notAfter=Dec 12 03:18:21 2044 GMT
 sha1 Fingerprint=F4:27:86:EB:6E:B8:6D:88:31:67:02:FB:BA:66:A4:53:00:AA:7A:A6
@@ -1465,7 +1465,7 @@ sha256 Fingerprint=57:4D:F6:93:1E:27:80:39:66:7B:72:0A:FD:C1:60:0F:C2:7E:B6:6D:D
 
 /*
 serial=42F2CCDA1B6937445F15FE752810B8F4
-issuer=C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication Root E46
+issuer=C = GB, O = Sectigo Limited, CN = Sectigo Public Server Authentication Root E46
 notBefore=Mar 22 00:00:00 2021 GMT
 notAfter=Mar 21 23:59:59 2046 GMT
 sha1 Fingerprint=EC:8A:39:6C:40:F0:2E:BC:42:75:D4:9F:AB:1C:1A:5B:67:BE:D2:9A
@@ -1476,7 +1476,7 @@ sha256 Fingerprint=C9:0F:26:F0:FB:1B:40:18:B2:22:27:51:9B:5C:A2:B5:3E:2C:A5:B3:B
 
 /*
 serial=758DFD8BAE7C0700FAA925A7E1C7AD14
-issuer=C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication Root R46
+issuer=C = GB, O = Sectigo Limited, CN = Sectigo Public Server Authentication Root R46
 notBefore=Mar 22 00:00:00 2021 GMT
 notAfter=Mar 21 23:59:59 2046 GMT
 sha1 Fingerprint=AD:98:F9:F3:E4:7D:75:3B:65:D4:82:B3:A4:52:17:BB:6E:F5:E4:38
@@ -1487,7 +1487,7 @@ sha256 Fingerprint=7B:B6:47:A6:2A:EE:AC:88:BF:25:7A:A5:22:D0:1F:FE:A3:95:E0:AB:4
 
 /*
 serial=6FBEDAAD73BD0840E28B4DBED4F75B91
-issuer=C=US, O=SSL Corporation, CN=SSL.com TLS RSA Root CA 2022
+issuer=C = US, O = SSL Corporation, CN = SSL.com TLS RSA Root CA 2022
 notBefore=Aug 25 16:34:22 2022 GMT
 notAfter=Aug 19 16:34:21 2046 GMT
 sha1 Fingerprint=EC:2C:83:40:72:AF:26:95:10:FF:0E:F2:03:EE:31:70:F6:78:9D:CA
@@ -1498,7 +1498,7 @@ sha256 Fingerprint=8F:AF:7D:2E:2C:B4:70:9B:B8:E0:B3:36:66:BF:75:A5:DD:45:B5:DE:4
 
 /*
 serial=1403F5ABFB378B17405BE243B2A5D1C4
-issuer=C=US, O=SSL Corporation, CN=SSL.com TLS ECC Root CA 2022
+issuer=C = US, O = SSL Corporation, CN = SSL.com TLS ECC Root CA 2022
 notBefore=Aug 25 16:33:48 2022 GMT
 notAfter=Aug 19 16:33:47 2046 GMT
 sha1 Fingerprint=9F:5F:D9:1A:54:6D:F5:0C:71:F0:EE:7A:BD:17:49:98:84:73:E2:39
@@ -1509,7 +1509,7 @@ sha256 Fingerprint=C3:2F:FD:9F:46:F9:36:D1:6C:36:73:99:09:59:43:4B:9A:D6:0A:AF:B
 
 /*
 serial=3D983BA6663D9063F77E26573804EF00
-issuer=CN=Atos TrustedRoot Root CA ECC TLS 2021, O=Atos, C=DE
+issuer=CN = Atos TrustedRoot Root CA ECC TLS 2021, O = Atos, C = DE
 notBefore=Apr 22 09:26:23 2021 GMT
 notAfter=Apr 17 09:26:22 2041 GMT
 sha1 Fingerprint=9E:BC:75:10:42:B3:02:F3:81:F4:F7:30:62:D4:8F:C3:A7:51:B2:DD
@@ -1520,7 +1520,7 @@ sha256 Fingerprint=B2:FA:E5:3E:14:CC:D7:AB:92:12:06:47:01:AE:27:9C:1D:89:88:FA:C
 
 /*
 serial=53D5CFE619930BFB2B0512D8C22AA2A4
-issuer=CN=Atos TrustedRoot Root CA RSA TLS 2021, O=Atos, C=DE
+issuer=CN = Atos TrustedRoot Root CA RSA TLS 2021, O = Atos, C = DE
 notBefore=Apr 22 09:21:10 2021 GMT
 notAfter=Apr 17 09:21:09 2041 GMT
 sha1 Fingerprint=18:52:3B:0D:06:37:E4:D6:3A:DF:23:E4:98:FB:5B:16:FB:86:74:48
@@ -1531,7 +1531,7 @@ sha256 Fingerprint=81:A9:08:8E:A5:9F:B3:64:C5:48:A6:F8:55:59:09:9B:6F:04:05:EF:B
 
 /*
 serial=64F60E6577616AAB3BB4EA8584BBB189B871930F
-issuer=C=CN, O=TrustAsia Technologies, Inc., CN=TrustAsia Global Root CA G3
+issuer=C = CN, O = "TrustAsia Technologies, Inc.", CN = TrustAsia Global Root CA G3
 notBefore=May 20 02:10:19 2021 GMT
 notAfter=May 19 02:10:19 2046 GMT
 sha1 Fingerprint=63:CF:B6:C1:27:2B:56:E4:88:8E:1C:23:9A:B6:2E:81:47:24:C3:C7
@@ -1542,7 +1542,7 @@ sha256 Fingerprint=E0:D3:22:6A:EB:11:63:C2:E4:8F:F9:BE:3B:50:B4:C6:43:1B:E7:BB:1
 
 /*
 serial=4F2364B88E97639EC65381C1764ECB2A7415D6D7
-issuer=C=CN, O=TrustAsia Technologies, Inc., CN=TrustAsia Global Root CA G4
+issuer=C = CN, O = "TrustAsia Technologies, Inc.", CN = TrustAsia Global Root CA G4
 notBefore=May 20 02:10:22 2021 GMT
 notAfter=May 19 02:10:22 2046 GMT
 sha1 Fingerprint=57:73:A5:61:5D:80:B2:E6:AC:38:82:FC:68:07:31:AC:9F:B5:92:5A
@@ -1553,7 +1553,7 @@ sha256 Fingerprint=BE:4B:56:CB:50:56:C0:13:6A:52:6D:F4:44:50:8D:AA:36:A0:B5:4F:4
 
 /*
 serial=43708277CF4D5D34F1CAAE322F37F7F47F75A09E
-issuer=C=US, O=CommScope, CN=CommScope Public Trust ECC Root-01
+issuer=C = US, O = CommScope, CN = CommScope Public Trust ECC Root-01
 notBefore=Apr 28 17:35:43 2021 GMT
 notAfter=Apr 28 17:35:42 2046 GMT
 sha1 Fingerprint=07:86:C0:D8:DD:8E:C0:80:98:06:98:D0:58:7A:EF:DE:A6:CC:A2:5D
@@ -1564,7 +1564,7 @@ sha256 Fingerprint=11:43:7C:DA:7B:B4:5E:41:36:5F:45:B3:9A:38:98:6B:0D:E0:0D:EF:3
 
 /*
 serial=28FD99604147A6013ACA147B1FEFF96808835D7D
-issuer=C=US, O=CommScope, CN=CommScope Public Trust ECC Root-02
+issuer=C = US, O = CommScope, CN = CommScope Public Trust ECC Root-02
 notBefore=Apr 28 17:44:54 2021 GMT
 notAfter=Apr 28 17:44:53 2046 GMT
 sha1 Fingerprint=3C:3F:EF:57:0F:FE:65:93:86:9E:A0:FE:B0:F6:ED:8E:D1:13:C7:E5
@@ -1575,7 +1575,7 @@ sha256 Fingerprint=2F:FB:7F:81:3B:BB:B3:C8:9A:B4:E8:16:2D:0F:16:D7:15:09:A8:30:C
 
 /*
 serial=3E034981751674318E4CABD5C5902996C53910DD
-issuer=C=US, O=CommScope, CN=CommScope Public Trust RSA Root-01
+issuer=C = US, O = CommScope, CN = CommScope Public Trust RSA Root-01
 notBefore=Apr 28 16:45:54 2021 GMT
 notAfter=Apr 28 16:45:53 2046 GMT
 sha1 Fingerprint=6D:0A:5F:F7:B4:23:06:B4:85:B3:B7:97:64:FC:AC:75:F5:33:F2:93
@@ -1586,7 +1586,7 @@ sha256 Fingerprint=02:BD:F9:6E:2A:45:DD:9B:F1:8F:C7:E1:DB:DF:21:A0:37:9B:A3:C9:C
 
 /*
 serial=5416BF3B7E3995718DD1AA00A5860D2B8F7A054E
-issuer=C=US, O=CommScope, CN=CommScope Public Trust RSA Root-02
+issuer=C = US, O = CommScope, CN = CommScope Public Trust RSA Root-02
 notBefore=Apr 28 17:16:43 2021 GMT
 notAfter=Apr 28 17:16:42 2046 GMT
 sha1 Fingerprint=EA:B0:E2:52:1B:89:93:4C:11:68:F2:D8:9A:AC:22:4C:A3:8A:57:AE
@@ -1597,7 +1597,7 @@ sha256 Fingerprint=FF:E9:43:D7:93:42:4B:4F:7C:44:0C:1C:3D:64:8D:53:63:F3:4B:82:D
 
 /*
 serial=363A968CC95CB258CDD0015DC5E55700
-issuer=C=DE, O=Deutsche Telekom Security GmbH, CN=Telekom Security TLS ECC Root 2020
+issuer=C = DE, O = Deutsche Telekom Security GmbH, CN = Telekom Security TLS ECC Root 2020
 notBefore=Aug 25 07:48:20 2020 GMT
 notAfter=Aug 25 23:59:59 2045 GMT
 sha1 Fingerprint=C0:F8:96:C5:A9:3B:01:06:21:07:DA:18:42:48:BC:E9:9D:88:D5:EC
@@ -1608,7 +1608,7 @@ sha256 Fingerprint=57:8A:F4:DE:D0:85:3F:4E:59:98:DB:4A:EA:F9:CB:EA:8D:94:5F:60:B
 
 /*
 serial=219C542DE8F6EC7177FA4EE8C3705797
-issuer=C=DE, O=Deutsche Telekom Security GmbH, CN=Telekom Security TLS RSA Root 2023
+issuer=C = DE, O = Deutsche Telekom Security GmbH, CN = Telekom Security TLS RSA Root 2023
 notBefore=Mar 28 12:16:45 2023 GMT
 notAfter=Mar 27 23:59:59 2048 GMT
 sha1 Fingerprint=54:D3:AC:B3:BD:57:56:F6:85:9D:CE:E5:C3:21:E2:D4:AD:83:D0:93
@@ -1619,7 +1619,7 @@ sha256 Fingerprint=EF:C6:5C:AD:BB:59:AD:B6:EF:E8:4D:A2:23:11:B3:56:24:B7:1B:3B:1
 
 /*
 serial=319721EDAF89427F354187A167564C6D
-issuer=C=ES, O=Firmaprofesional SA, organizationIdentifier=VATES-A62634068, CN=FIRMAPROFESIONAL CA ROOT-A WEB
+issuer=C = ES, O = Firmaprofesional SA, organizationIdentifier = VATES-A62634068, CN = FIRMAPROFESIONAL CA ROOT-A WEB
 notBefore=Apr  6 09:01:36 2022 GMT
 notAfter=Mar 31 09:01:36 2047 GMT
 sha1 Fingerprint=A8:31:11:74:A6:14:15:0D:CA:77:DD:0E:E4:0C:5D:58:FC:A0:72:A5
@@ -1630,7 +1630,7 @@ sha256 Fingerprint=BE:F2:56:DA:F2:6E:9C:69:BD:EC:16:02:35:97:98:F3:CA:F7:18:21:A
 
 /*
 serial=4001348CC200000000000000013CF2C6
-issuer=C=TW, O=TAIWAN-CA, OU=Root CA, CN=TWCA CYBER Root CA
+issuer=C = TW, O = TAIWAN-CA, OU = Root CA, CN = TWCA CYBER Root CA
 notBefore=Nov 22 06:54:29 2022 GMT
 notAfter=Nov 22 15:59:59 2047 GMT
 sha1 Fingerprint=F6:B1:1C:1A:83:38:E9:7B:DB:B3:A8:C8:33:24:E0:2D:9C:7F:26:66
@@ -1641,7 +1641,7 @@ sha256 Fingerprint=3F:63:BB:28:14:BE:17:4E:C8:B6:43:9C:F0:8D:6D:56:F0:B7:C4:05:8
 
 /*
 serial=66F9C7C1AFECC251B4ED5397E6E682C32B1C9016
-issuer=C=JP, O=Cybertrust Japan Co., Ltd., CN=SecureSign Root CA12
+issuer=C = JP, O = "Cybertrust Japan Co., Ltd.", CN = SecureSign Root CA12
 notBefore=Apr  8 05:36:46 2020 GMT
 notAfter=Apr  8 05:36:46 2040 GMT
 sha1 Fingerprint=7A:22:1E:3D:DE:1B:06:AC:9E:C8:47:70:16:8E:3C:E5:F7:6B:06:F4
@@ -1652,7 +1652,7 @@ sha256 Fingerprint=3F:03:4B:B5:70:4D:44:B2:D0:85:45:A0:20:57:DE:93:EB:F3:90:5F:C
 
 /*
 serial=64DB5A0C204EE8D72977C85027A25A27DD2DF2CB
-issuer=C=JP, O=Cybertrust Japan Co., Ltd., CN=SecureSign Root CA14
+issuer=C = JP, O = "Cybertrust Japan Co., Ltd.", CN = SecureSign Root CA14
 notBefore=Apr  8 07:06:19 2020 GMT
 notAfter=Apr  8 07:06:19 2045 GMT
 sha1 Fingerprint=DD:50:C0:F7:79:B3:64:2E:74:A2:B8:9D:9F:D3:40:DD:BB:F0:F2:4F
@@ -1663,7 +1663,7 @@ sha256 Fingerprint=4B:00:9C:10:34:49:4F:9A:B5:6B:BA:3B:A1:D6:27:31:FC:4D:20:D8:9
 
 /*
 serial=1615C7C3D849A7BE690C8A88EDF070F9DDB73E87
-issuer=C=JP, O=Cybertrust Japan Co., Ltd., CN=SecureSign Root CA15
+issuer=C = JP, O = "Cybertrust Japan Co., Ltd.", CN = SecureSign Root CA15
 notBefore=Apr  8 08:32:56 2020 GMT
 notAfter=Apr  8 08:32:56 2045 GMT
 sha1 Fingerprint=CB:BA:83:C8:C1:5A:5D:F1:F9:73:6F:CA:D7:EF:28:13:06:4A:07:7D
