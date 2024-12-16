@@ -42,7 +42,8 @@ do
     openssl x509 -in $cert -noout -serial -issuer -dates -sha1 -fingerprint
     openssl x509 -in $cert -noout -sha256 -fingerprint
     echo "*/"
-    echo "\"$(openssl x509 -in $cert -outform pem | xxd -i | sed s/'0x0a'/'0x5c, 0x6e'/g | xxd -r -p)\","
+    single_pem="$(openssl x509 -in $cert -outform pem)"
+    echo "\"${single_pem//$'\n'/\\n}\","
     echo -e "\n"
 done >> rs.tmp.out
 echo "];" >> rs.tmp.out
