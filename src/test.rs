@@ -9,6 +9,7 @@ fn der() {
     }
 }
 
+#[cfg(feature="pem")]
 #[test]
 fn pem() {
     for pem_cert in PEM_LIST {

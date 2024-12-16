@@ -63,7 +63,7 @@ jobs:
 
       - name: Cargo test
         if: ${{ steps.check.outputs.CANCEL == '0' }}
-        run: cargo test
+        run: cargo test --all-features
 
       - name: Run update.sh for update CA list
         if: ${{ steps.check.outputs.CANCEL == '0' }}
@@ -74,7 +74,7 @@ jobs:
 
       - name: Make sure the post-run of source code can be compiled
         if: ${{ steps.check.outputs.CANCEL == '0' }}
-        run: cargo test
+        run: cargo test --all-features
 
       - name: Push changes
         if: ${{ steps.check.outputs.CANCEL == '0' }}
@@ -86,7 +86,7 @@ jobs:
           if test "$(git status -s | wc -c)" -gt 0
           then
               bash bump-version.sh || true
-              cargo test
+              cargo test --all-features
               git add -A
           else
               true
