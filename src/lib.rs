@@ -1,4 +1,4 @@
-#![cfg_attr(not(test), no_std)]
+#![cfg_attr(all(not(test), not(feature="std")), no_std)]
 
 use const_decoder2::decode_base64 as b64;
 

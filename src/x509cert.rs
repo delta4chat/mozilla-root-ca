@@ -3,6 +3,9 @@ use crate::*;
 extern crate x509cert;
 use x509cert::X509Certificate;
 
-pub fn x509cert_list() -> Vec<X509Certificate> {
-    X509Certificate::from_pem_multiple(pem::PEM_BUNDLE).unwrap()
+include!("x509_common.rs");
+
+pub fn x509cert_list() -> &'static Vec<X509Certificate> {
+    __x509_common_impl()
 }
+
