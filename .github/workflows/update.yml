@@ -39,25 +39,31 @@ jobs:
           w cargo --version ; w sleep 1
           w rustup --version
 
-          if git log -1 | grep -F "auto-submit}"
+          # check cancel if pushed
+          if test "${{github.event_name}}" = "push"
           then
-            echo "Skip any auto commit by bots"
-            echo "CANCEL=1" >> $GITHUB_OUTPUT
-            exit 0
-          fi
+              if git log -1 | grep -F "auto-submit}"
+              then
+                  echo "Skip any auto commit by bots"
+                  echo "CANCEL=1" >> $GITHUB_OUTPUT
+                  exit 0
+              fi
 
-          if git log -1 | grep -F "#NOCI"
-          then
-            echo "This commit Disable CI"
-            echo "CANCEL=2" >> $GITHUB_OUTPUT
-            exit 0
+              if git log -1 | grep -F "#NOCI"
+              then
+                  echo "This commit Disable CI"
+                  echo "CANCEL=2" >> $GITHUB_OUTPUT
+                  exit 0
+              fi
+          else
+              true
           fi
 
           echo "CANCEL=0" >> $GITHUB_OUTPUT
 
-      - name: Cargo build
+      - name: Cargo test
         if: ${{ steps.check.outputs.CANCEL == '0' }}
-        run: cargo build
+        run: cargo test
 
       - name: Run update.sh for update CA list
         if: ${{ steps.check.outputs.CANCEL == '0' }}
@@ -65,6 +71,10 @@ jobs:
           cd src/
           bash update.sh
           cd ..
+
+      - name: Make sure the post-run of source code can be compiled
+        if: ${{ steps.check.outputs.CANCEL == '0' }}
+        run: cargo test
 
       - name: Push changes
         if: ${{ steps.check.outputs.CANCEL == '0' }}
@@ -76,6 +86,7 @@ jobs:
           if test "$(git status -s | wc -c)" -gt 0
           then
               bash bump-version.sh || true
+              cargo test
               git add -A
           else
               true
