@@ -1,6 +1,6 @@
 [package]
 name = "mozilla-root-ca"
-version = "2024.12.15"
+version = "2024.12.16"
 authors = ["Delta4 <delta4chat@gmx.com>"]
 edition = "2021"
 description="Mozilla Root CA list from https://curl.se/ca/cacert.pem"
@@ -9,8 +9,12 @@ repository="https://github.com/delta4chat/mozilla-root-ca"
 
 [features]
 default = []
+pem = []
 x509cert = ["dep:x509cert"]
 x509-certificate = ["dep:x509-certificate"]
+
+[package.metadata.docs.rs]
+all-features = true
 
 [dependencies]
 const-decoder2 = "0.5.1"

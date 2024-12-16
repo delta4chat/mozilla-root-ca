@@ -10,7 +10,9 @@ pub(crate) use alloc::vec::Vec;
 pub mod der;
 pub use der::*;
 
+#[cfg(feature="pem")]
 pub mod pem;
+#[cfg(feature="pem")]
 pub use pem::*;
 
 #[cfg(feature="x509cert")]
