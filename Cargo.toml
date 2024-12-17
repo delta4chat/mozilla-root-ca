@@ -9,7 +9,7 @@ repository="https://github.com/delta4chat/mozilla-root-ca"
 
 [features]
 default = ["der"]
-der = []
+der = ["dep:const-decoder2"]
 pem = []
 
 std = ["dep:once_cell"]
@@ -20,7 +20,7 @@ x509-certificate = ["pem", "dep:x509-certificate", "dep:lazy_static"]
 all-features = true
 
 [dependencies]
-const-decoder2 = "0.5.1"
+const-decoder2 = { optional = true, version = "0.5.1" }
 
 x509cert         = { optional = true, version = "0.25.1" }
 x509-certificate = { optional = true, version = "0.24.0" }
