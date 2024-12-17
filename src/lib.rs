@@ -1,5 +1,7 @@
 #![cfg_attr(all(not(test), not(feature="std")), no_std)]
 
+#![forbid(unsafe_code)]
+
 #[cfg(not(any(feature="der", feature="pem")))]
 compile_error!("it is necessary to enable at least one of the required features (der or pem); otherwise, this crate will be devoid of content.");
 
@@ -15,6 +17,11 @@ use const_decoder2::decode_base64 as b64;
 pub mod der;
 #[cfg(feature="der")]
 pub use der::*;
+
+#[cfg(feature="rustls")]
+pub mod rustls;
+#[cfg(feature="rustls")]
+pub use rustls::*;
 
 #[cfg(feature="pem")]
 pub mod pem;
