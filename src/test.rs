@@ -32,7 +32,7 @@ fn x509_certificate() {
 
 #[cfg(feature="rustls")]
 #[test]
-fn native_tls() {
+fn rustls() {
     for cert in RUSTLS_CERTIFICATE_DER_LIST.iter() {
         eprintln!("{cert:?}");
     }
