@@ -1,10 +1,10 @@
-fn __x509_common_impl() -> &'static Vec<X509Certificate> {
+fn __x509_common_impl() -> &'static [X509Certificate; PEM_LIST_LEN] {
     #[cfg(not(feature="std"))]
     {
         use lazy_static::lazy_static;
 
         lazy_static! {
-            static ref LIST: Vec<X509Certificate> = gen_cert_list();
+            static ref LIST: [X509Certificate; PEM_LIST_LEN] = gen_cert_list();
         }
 
         &*LIST
@@ -14,11 +14,15 @@ fn __x509_common_impl() -> &'static Vec<X509Certificate> {
     {
         use once_cell::sync::Lazy;
 
-        static LIST: Lazy<Vec<X509Certificate>> = Lazy::new(gen_cert_list);
+        static LIST: Lazy<[X509Certificate; PEM_LIST_LEN]> = Lazy::new(gen_cert_list);
+
         &*LIST
     }
 }
 
-fn gen_cert_list() -> Vec<X509Certificate> {
-    X509Certificate::from_pem_multiple(PEM_BUNDLE).unwrap()
+fn gen_cert_list() -> [X509Certificate; PEM_LIST_LEN] {
+    core::array::from_fn(|i| {
+        X509Certificate::from_pem(PEM_LIST[i]).unwrap()
+    })
 }
+

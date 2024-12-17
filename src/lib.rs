@@ -5,11 +5,6 @@
 #[cfg(not(any(feature="der", feature="pem")))]
 compile_error!("it is necessary to enable at least one of the required features (der or pem); otherwise, this crate will be devoid of content.");
 
-#[cfg(any(feature="x509cert", feature="x509-certificate"))]
-extern crate alloc;
-#[cfg(any(feature="x509cert", feature="x509-certificate"))]
-pub(crate) use alloc::vec::Vec;
-
 #[cfg(feature="der")]
 use const_decoder2::decode_base64 as b64;
 
@@ -17,6 +12,8 @@ use const_decoder2::decode_base64 as b64;
 pub mod der;
 #[cfg(feature="der")]
 pub use der::*;
+#[cfg(feature="der")]
+pub const DER_LIST_LEN: usize = DER_LIST.len();
 
 #[cfg(feature="rustls")]
 pub mod rustls;
@@ -27,6 +24,8 @@ pub use rustls::*;
 pub mod pem;
 #[cfg(feature="pem")]
 pub use pem::*;
+#[cfg(feature="pem")]
+pub const PEM_LIST_LEN: usize = PEM_LIST.len();
 
 #[cfg(feature="x509cert")]
 pub mod x509cert;

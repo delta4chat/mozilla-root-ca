@@ -3,8 +3,6 @@ use crate::*;
 extern crate native_tls;
 use native_tls::Certificate;
 
-const PEM_LIST_LEN: usize = PEM_LIST.len();
-
 pub fn native_tls_certificate_list() -> &'static [Certificate; PEM_LIST_LEN] {
     #[cfg(not(feature="std"))]
     {
@@ -22,6 +20,7 @@ pub fn native_tls_certificate_list() -> &'static [Certificate; PEM_LIST_LEN] {
         use once_cell::sync::Lazy;
 
         static LIST: Lazy<[Certificate; PEM_LIST_LEN]> = Lazy::new(gen_cert_list);
+
         &*LIST
     }
 }
