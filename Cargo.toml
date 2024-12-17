@@ -8,11 +8,13 @@ license="MPL-2.0"
 repository="https://github.com/delta4chat/mozilla-root-ca"
 
 [features]
-default = ["dep:lazy_static"]
-std = ["dep:once_cell"]
+default = ["der"]
+der = []
 pem = []
-x509cert = ["pem", "dep:x509cert"]
-x509-certificate = ["pem", "dep:x509-certificate"]
+
+std = ["dep:once_cell"]
+x509cert = ["pem", "dep:x509cert", "dep:lazy_static"]
+x509-certificate = ["pem", "dep:x509-certificate", "dep:lazy_static"]
 
 [package.metadata.docs.rs]
 all-features = true

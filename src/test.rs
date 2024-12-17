@@ -2,6 +2,7 @@ use crate::*;
 
 use bytes::Bytes;
 
+#[cfg(feature="der")]
 #[test]
 fn der() {
     for der_cert in DER_LIST {
