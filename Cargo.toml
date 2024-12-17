@@ -6,6 +6,8 @@ edition = "2021"
 description="Mozilla Root CA list from https://curl.se/ca/cacert.pem"
 license="MPL-2.0"
 repository="https://github.com/delta4chat/mozilla-root-ca"
+keywords = ["pki", "root-ca", "mozilla", "x509", "certificate"]
+categories = ["cryptography", "data-structures", "no-std", "no-std::no-alloc"]
 
 [features]
 default = ["der"]
