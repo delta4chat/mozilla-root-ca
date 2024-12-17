@@ -20,5 +20,5 @@ fn __x509_common_impl() -> &'static Vec<X509Certificate> {
 }
 
 fn gen_cert_list() -> Vec<X509Certificate> {
-    X509Certificate::from_pem_multiple(pem::PEM_BUNDLE).unwrap()
+    X509Certificate::from_pem_multiple(PEM_BUNDLE).unwrap()
 }

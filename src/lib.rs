@@ -38,6 +38,11 @@ pub mod x509_certificate;
 #[cfg(feature="x509-certificate")]
 pub use x509_certificate::*;
 
+#[cfg(feature="native-tls")]
+pub mod native_tls;
+#[cfg(feature="native-tls")]
+pub use native_tls::*;
+
 #[cfg(test)]
 mod test;
 

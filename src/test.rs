@@ -6,7 +6,7 @@ use bytes::Bytes;
 #[test]
 fn der() {
     for der_cert in DER_LIST {
-        dbg!(Bytes::from(*der_cert));
+        eprintln!("{:?}", Bytes::from(*der_cert));
     }
 }
 
@@ -14,7 +14,7 @@ fn der() {
 #[test]
 fn pem() {
     for pem_cert in PEM_LIST {
-        dbg!(pem_cert);
+        eprintln!("{pem_cert:?}");
     }
 }
 
@@ -28,4 +28,20 @@ fn x509cert() {
 #[test]
 fn x509_certificate() {
     dbg!(x509_certificate_list());
+}
+
+#[cfg(feature="rustls")]
+#[test]
+fn native_tls() {
+    for cert in RUSTLS_CERTIFICATE_DER_LIST.iter() {
+        eprintln!("{cert:?}");
+    }
+}
+
+#[cfg(feature="native-tls")]
+#[test]
+fn native_tls() {
+    for cert in native_tls_certificate_list() {
+        eprintln!("{:?}", cert.to_der());
+    }
 }
