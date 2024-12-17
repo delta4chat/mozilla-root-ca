@@ -1,9 +1,5 @@
 #!/bin/bash
 
-outdir="$(realpath .)"
-outfile="${outdir}/pem.rs"
-pem_outfile="${outdir}/mozilla.pem"
-
 set -e
 set -x
 
@@ -11,11 +7,16 @@ type openssl
 type mktemp
 type curl
 type base64
+type realpath
 type mkdir
 type ls
 type sort
 type rm
 type mv
+
+outdir="$(realpath .)"
+outfile="${outdir}/pem.rs"
+pem_outfile="${outdir}/mozilla.pem"
 
 export LC_ALL=C
 
@@ -23,7 +24,7 @@ tmp="$(mktemp -d -t mozillaRootCaUpdater.XXXXXXXX)"
 trap "rm -rfv $tmp" EXIT
 cd $tmp
 
-curl https://curl.se/ca/cacert.pem -v -4 -L -o mozilla.pem
+curl https://curl.se/ca/cacert.pem -v -L -o mozilla.pem
 pem="$(realpath mozilla.pem)"
 
 mkdir mozilla

@@ -1,9 +1,5 @@
 #!/bin/bash
 
-outdir="$(realpath .)"
-outfile="${outdir}/der.rs"
-pem="${outdir}/mozilla.pem"
-
 set -e
 set -x
 
@@ -11,9 +7,16 @@ type openssl
 type mktemp
 type cp
 type base64
+type realpath
+type ls
+type sort
 type mkdir
 type rm
 type mv
+
+outdir="$(realpath .)"
+outfile="${outdir}/der.rs"
+pem="${outdir}/mozilla.pem"
 
 tmp="$(mktemp -d -t mozillaRootCaUpdater.XXXXXXXX)"
 trap "rm -rfv $tmp" EXIT
