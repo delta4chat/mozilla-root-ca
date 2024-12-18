@@ -19,20 +19,22 @@ x509cert = ["pem", "dep:x509cert", "dep:lazy_static"]
 x509-certificate = ["pem", "dep:x509-certificate", "dep:lazy_static"]
 rustls = ["der", "dep:rustls-pki-types"]
 native-tls = ["pem", "dep:native-tls", "dep:lazy_static"]
+security-framework = ["der", "dep:security-framework"]
 
 [package.metadata.docs.rs]
 all-features = true
 
 [dependencies]
-const-decoder2   = { optional = true, version = "0.5.1" }
-rustls-pki-types = { optional = true, version = "1.10.1", default-features = false }
+const-decoder2     = { optional = true, version = "0.5.1" }
+rustls-pki-types   = { optional = true, version = "1.10.1", default-features = false }
 
-x509cert         = { optional = true, version = "0.25.1" }
-x509-certificate = { optional = true, version = "0.24.0" }
+x509cert           = { optional = true, version = "0.25.1" }
+x509-certificate   = { optional = true, version = "0.24.0" }
 
-lazy_static      = { optional = true, version = "1.5.0", features = ["spin_no_std"] }
-once_cell        = { optional = true, version = "1.20.2" }
-native-tls       = { optional = true, version = "0.2.12", default-features = false, features = ["vendored"] }
+lazy_static        = { optional = true, version = "1.5.0", features = ["spin_no_std"] }
+once_cell          = { optional = true, version = "1.20.2" }
+native-tls         = { optional = true, version = "0.2.12", default-features = false, features = ["vendored"] }
+security-framework = { optional = true, version = "3.1.0" }
 
 [dev-dependencies]
 bytes = "1.9.0"

@@ -42,6 +42,11 @@ pub mod native_tls;
 #[cfg(feature="native-tls")]
 pub use native_tls::*;
 
+#[cfg(all(feature="security-framework", target_vendor="apple"))]
+pub mod security_framework;
+#[cfg(all(feature="security-framework", target_vendor="apple"))]
+pub use security_framework::*;
+
 #[cfg(test)]
 mod test;
 
