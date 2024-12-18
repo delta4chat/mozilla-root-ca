@@ -20,6 +20,7 @@ x509-certificate = ["pem", "dep:x509-certificate", "dep:lazy_static"]
 rustls = ["der", "dep:rustls-pki-types"]
 native-tls = ["pem", "dep:native-tls", "dep:lazy_static"]
 security-framework = ["der", "dep:security-framework"]
+schannel = ["pem", "dep:schannel"]
 
 [package.metadata.docs.rs]
 all-features = true
@@ -33,8 +34,14 @@ x509-certificate   = { optional = true, version = "0.24.0" }
 
 lazy_static        = { optional = true, version = "1.5.0", features = ["spin_no_std"] }
 once_cell          = { optional = true, version = "1.20.2" }
+
 native-tls         = { optional = true, version = "0.2.12", default-features = false, features = ["vendored"] }
+
+[target.'cfg(target_vendor="apple")'.dependencies]
 security-framework = { optional = true, version = "3.1.0" }
+
+[target.'cfg(windows)'.dependencies]
+schannel           = { optional = true, version = "0.1.27" }
 
 [dev-dependencies]
 bytes = "1.9.0"

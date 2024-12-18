@@ -47,6 +47,11 @@ pub mod security_framework;
 #[cfg(all(feature="security-framework", target_vendor="apple"))]
 pub use security_framework::*;
 
+#[cfg(all(feature="schannel", target_os="windows"))]
+pub mod schannel;
+#[cfg(all(feature="schannel", target_os="windows"))]
+pub use schannel::*;
+
 #[cfg(test)]
 mod test;
 
