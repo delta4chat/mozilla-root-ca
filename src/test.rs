@@ -45,3 +45,16 @@ fn native_tls() {
         eprintln!("{:?}", cert.to_der());
     }
 }
+
+#[cfg(all(feature="security-framework", target_vendor="apple"))]
+#[test]
+fn security_framework() {
+    dbg!(security_framework_sec_certificate_list());
+}
+
+#[cfg(all(feature="schannel", target_os="windows"))]
+#[test]
+fn schannel() {
+    dbg!(schannel_cert_context_list());
+}
+

@@ -1,6 +1,6 @@
 [package]
 name = "mozilla-root-ca"
-version = "2024.12.18" ###BUMP-VERSION.SH###
+version = "2024.12.19" ##BUMP-VERSION.SH##
 authors = ["Delta4 <delta4chat@gmx.com>"]
 edition = "2021"
 description="Mozilla Root CA list from https://curl.se/ca/cacert.pem"
@@ -11,16 +11,20 @@ categories = ["cryptography", "data-structures", "no-std", "no-std::no-alloc"]
 
 [features]
 default = ["der"]
+
 der = ["dep:const-decoder2"]
 pem = []
 
 std = ["dep:once_cell"]
+
 x509cert = ["pem", "dep:x509cert", "dep:lazy_static"]
 x509-certificate = ["pem", "dep:x509-certificate", "dep:lazy_static"]
+
 rustls = ["der", "dep:rustls-pki-types"]
 native-tls = ["pem", "dep:native-tls", "dep:lazy_static"]
-security-framework = ["der", "dep:security-framework"]
-schannel = ["pem", "dep:schannel"]
+
+security-framework = ["der", "dep:security-framework", "dep:lazy_static"]
+schannel = ["pem", "dep:schannel", "dep:lazy_static"]
 
 [package.metadata.docs.rs]
 all-features = true
@@ -40,7 +44,7 @@ native-tls         = { optional = true, version = "0.2.12", default-features = f
 [target.'cfg(target_vendor="apple")'.dependencies]
 security-framework = { optional = true, version = "3.1.0" }
 
-[target.'cfg(windows)'.dependencies]
+[target.'cfg(target_os="windows")'.dependencies]
 schannel           = { optional = true, version = "0.1.27" }
 
 [dev-dependencies]
