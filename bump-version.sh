@@ -3,7 +3,7 @@
 set -e
 set -x
 
-d="$(date -u '+%Y.%m.%d')"
+d="$(date -u '+%-Y.%-m.%-d')"
 
 n="$(cat Cargo.toml | grep -n -F '##BUMP-VERSION.SH##' | tr ':' ' ' | awk '{print $1}')"
 l="$(cat Cargo.toml | wc -l)"
