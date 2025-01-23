@@ -21,6 +21,8 @@ x509cert = ["pem", "dep:x509cert", "dep:lazy_static"]
 x509-certificate = ["pem", "dep:x509-certificate", "dep:lazy_static"]
 
 rustls = ["der", "dep:rustls-pki-types"]
+rustls-trust-anchor = ["rustls", "dep:rustls-webpki", "dep:lazy_static"]
+
 native-tls = ["pem", "dep:native-tls", "dep:lazy_static"]
 
 security-framework = ["der", "dep:security-framework", "dep:lazy_static"]
@@ -31,7 +33,9 @@ all-features = true
 
 [dependencies]
 const-decoder2     = { optional = true, version = "0.5.1" }
+
 rustls-pki-types   = { optional = true, version = "1.10.1", default-features = false }
+rustls-webpki      = { optional = true, version = "0.102.8", default-features = false }
 
 x509cert           = { optional = true, version = "0.25.1" }
 x509-certificate   = { optional = true, version = "0.24.0" }
