@@ -35,7 +35,7 @@ all-features = true
 const-decoder2     = { optional = true, version = "0.5.1" }
 
 rustls-pki-types   = { optional = true, version = "1.10.1", default-features = false }
-rustls-webpki      = { optional = true, version = "0.102.8", default-features = false }
+rustls-webpki      = { optional = true, version = "0.103.0", default-features = false }
 
 x509cert           = { optional = true, version = "0.25.1" }
 x509-certificate   = { optional = true, version = "0.24.0" }
