@@ -1,6 +1,6 @@
 [package]
 name = "mozilla-root-ca"
-version = "2025.1.11" ##BUMP-VERSION.SH##
+version = "2025.2.26" ##BUMP-VERSION.SH##
 authors = ["Delta4 <delta4chat@gmx.com>"]
 edition = "2021"
 description="Mozilla Root CA list from https://curl.se/ca/cacert.pem"
