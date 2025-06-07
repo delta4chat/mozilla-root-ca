@@ -4,7 +4,7 @@ use core::mem;
 
 use rustls_pki_types::{CertificateDer, Der};
 
-pub const RUSTLS_DER_LIST: [Der<'static>; DER_LIST_LEN] = {
+pub static RUSTLS_DER_LIST: [Der<'static>; DER_LIST_LEN] = {
     let mut list = [const { Der::from_slice(b"") }; DER_LIST_LEN];
 
     let mut i = 0;
@@ -16,7 +16,7 @@ pub const RUSTLS_DER_LIST: [Der<'static>; DER_LIST_LEN] = {
     list
 };
 
-pub const RUSTLS_CERTIFICATE_DER_LIST: [CertificateDer<'static>; DER_LIST_LEN] = {
+pub static RUSTLS_CERTIFICATE_DER_LIST: [CertificateDer<'static>; DER_LIST_LEN] = {
     let mut list = [const { CertificateDer::from_slice(b"") }; DER_LIST_LEN];
 
     let mut i = 0;

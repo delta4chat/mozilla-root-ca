@@ -1,6 +1,6 @@
 [package]
 name = "mozilla-root-ca"
-version = "2025.5.21" ##BUMP-VERSION.SH##
+version = "2025.6.7" ##BUMP-VERSION.SH##
 authors = ["Delta4 <delta4chat@gmx.com>"]
 edition = "2021"
 description="Mozilla Root CA list from https://curl.se/ca/cacert.pem"
@@ -34,23 +34,23 @@ all-features = true
 [dependencies]
 const-decoder2     = { optional = true, version = "0.5.1" }
 
-rustls-pki-types   = { optional = true, version = "1.10.1", default-features = false }
-rustls-webpki      = { optional = true, version = "0.102.8", default-features = false }
+rustls-pki-types   = { optional = true, version = "1.12.0", default-features = false }
+rustls-webpki      = { optional = true, version = "0.103.3", default-features = false }
 
-x509cert           = { optional = true, version = "0.25.1" }
+x509cert           = { optional = true, version = "0.25.3" }
 x509-certificate   = { optional = true, version = "0.24.0" }
 
 lazy_static        = { optional = true, version = "1.5.0", features = ["spin_no_std"] }
-once_cell          = { optional = true, version = "1.20.2" }
+once_cell          = { optional = true, version = "1.21.3" }
 
-native-tls         = { optional = true, version = "0.2.12", default-features = false, features = ["vendored"] }
+native-tls         = { optional = true, version = "0.2.14", default-features = false, features = ["vendored"] }
 
 [target.'cfg(target_vendor="apple")'.dependencies]
-security-framework = { optional = true, version = "3.1.0" }
+security-framework = { optional = true, version = "3.2.0" }
 
 [target.'cfg(target_os="windows")'.dependencies]
 schannel           = { optional = true, version = "0.1.27" }
 
 [dev-dependencies]
-bytes = "1.9.0"
+bytes = "1.10.1"
 
